@@ -12,7 +12,7 @@ class Solution(object):
             slow = slow.next
             fast = fast.next.next
         second = slow.next
-        slow.next = None
+        slow.next = None #this is imp!
         prev = None
         while second:
             temp = second.next
