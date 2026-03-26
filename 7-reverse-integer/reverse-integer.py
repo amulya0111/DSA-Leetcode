@@ -1,20 +1,10 @@
 class Solution(object):
     def reverse(self, x):
-        n=abs(x)
-        rev=0
-        while n>0:
-            r=n%10
-            rev=rev*10+r
-            n=n/10
-        if x<0:
-            if (-2**31)<=-rev<=(2**31-1):
-                return -rev
-            else:
-                return 0
-        else:
-            if (-2**31)<=rev<=(2**31-1):
-                return rev
-            else:
-                return 0
-        
-        
+        # Handle sign
+        sign = -1 if x < 0 else 1
+        # Reverse using string slicing
+        rev = int(str(abs(x))[::-1]) * sign
+        # Check 32-bit range
+        if -2**31 <= rev <= 2**31 - 1:
+            return rev
+        return 0
