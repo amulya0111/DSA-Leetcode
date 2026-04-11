@@ -7,10 +7,10 @@ class Solution(object):
         for char in s:
             if char in dic:
                 if stack:
-                    peek=stack.pop()
-                    #check if the popped element was the opening bracket for the closing key or not - '('=')'?
-                    if dic[char]!=peek:
+                    if dic[char]!=stack[-1]:
                         return False
+                    stack.pop()
+                    #check if the popped element was the opening bracket for the closing key or not - '('=')'?
                 else:
                     return False
             #now open brackets check 
