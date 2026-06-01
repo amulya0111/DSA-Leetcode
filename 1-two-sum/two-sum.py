@@ -1,16 +1,14 @@
 class Solution(object):
     def twoSum(self,nums, target):
         mp = {}  # empty dictionary 
-    
+
         for i in range(len(nums)):
-            needed = target - nums[i]
-        
-            if needed in mp:
-                return [mp[needed], i]
-        
-            mp[nums[i]] = i
-
-
-
+            #we will use hashmap
+            mp[nums[i]]=i
+        for i in range(len(nums)):
+            y=target-nums[i]
+            # check if remining is in hashmap but not in same index 
+            if y in mp and mp[y] != i:
+                return [i,mp[y]]
         
         
