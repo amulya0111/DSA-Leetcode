@@ -3,7 +3,7 @@ class Solution(object):
         # lets make left right products differently 
         left=[]
         right=[]
-        answer=[]
+        # answer=[]
         y=1
         x=1
         # making left from 0 t i-1
@@ -20,6 +20,6 @@ class Solution(object):
                 x=x*nums[i+1]
                 right.append(x)
         for i in range(len(nums)):
-            answer.append(left[i]*right[len(nums)-i-1])
-        return answer
+            left[i]=left[i]*right[len(nums)-i-1]
+        return left
             
