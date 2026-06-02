@@ -1,5 +1,5 @@
-# class Solution(object):
-#     def productExceptSelf(self, nums):
+class Solution(object):
+    def productExceptSelf(self, nums):
         # # lets make left right products differently 
         # left=[1]
         # right=[1]
@@ -18,19 +18,13 @@
         # for i in range(len(nums)):
         #     left[i]=left[i]*right[len(nums)-i-1]
         # return left
-class Solution(object):
-    def productExceptSelf(self, nums):
-        n = len(nums)
-        answer = [1] * n
-
-        prefix = 1
-        for i in range(n):
-            answer[i] = prefix
-            prefix *= nums[i]
-
-        suffix = 1
-        for i in range(n - 1, -1, -1):
-            answer[i] *= suffix
-            suffix *= nums[i]
-
-        return answer
+        output = [1] * len(nums)
+        x=1
+        y=1
+        for i in range(len(nums)):
+            output[i]=x
+            x=x*nums[i]
+        for i in range(len(nums)-1,-1,-1):
+            output[i]*=y
+            y=y*nums[i]
+        return output
