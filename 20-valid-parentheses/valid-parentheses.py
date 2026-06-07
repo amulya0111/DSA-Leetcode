@@ -5,20 +5,14 @@ class Solution(object):
         dic = {')':'(','}':'{',']':'['}
         #char will refer to the key
         for char in s:
-            if char in dic:
-                if stack:
-                    if dic[char]!=stack[-1]:
-                        return False
-                    stack.pop()
-                    #check if the popped element was the opening bracket for the closing key or not - '('=')'?
-                else:
+            if char in dic: #if the char we got is a parenthesis
+            #if )}] is there but stack is empty or the last added is not the value of the key:
+                if not stack or stack[-1] != dic[char]:
                     return False
+                stack.pop()
             #now open brackets check 
             else:
                 stack.append(char)
         if stack:
             return False
-        return True
-
-
-        
+        return True        
