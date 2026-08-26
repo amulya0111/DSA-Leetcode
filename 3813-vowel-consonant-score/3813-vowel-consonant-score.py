@@ -17,3 +17,4 @@ class Solution(object):
             return vowel//consonant
         else:
             return 0
+            #done
