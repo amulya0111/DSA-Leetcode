@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0041-first-missing-positive](https://github.com/amulya0111/DSA-Leetcode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/amulya0111/DSA-Leetcode/tree/master/0049-group-anagrams) |
+| [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/amulya0111/DSA-Leetcode/tree/master/3005-count-elements-with-maximum-frequency) |
 ## Hash Table
 |  |
@@ -41,4 +42,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0680-valid-palindrome-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0680-valid-palindrome-ii) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 <!---LeetCode Topics End-->
