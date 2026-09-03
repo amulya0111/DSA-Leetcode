@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0135-candy](https://github.com/amulya0111/DSA-Leetcode/tree/master/0135-candy) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/amulya0111/DSA-Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/amulya0111/DSA-Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0410-split-array-largest-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/amulya0111/DSA-Leetcode/tree/master/3005-count-elements-with-maximum-frequency) |
 ## Hash Table
@@ -61,13 +62,35 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/amulya0111/DSA-Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/amulya0111/DSA-Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0410-split-array-largest-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
 ## Divide and Conquer
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/amulya0111/DSA-Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/amulya0111/DSA-Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/amulya0111/DSA-Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
+## Segment Tree
+|  |
+| ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/amulya0111/DSA-Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
+## Merge Sort
+|  |
+| ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/amulya0111/DSA-Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
+## Ordered Set
+|  |
+| ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/amulya0111/DSA-Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
+## Treap
+|  |
+| ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/amulya0111/DSA-Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 <!---LeetCode Topics End-->
