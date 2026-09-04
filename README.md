@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0135-candy](https://github.com/amulya0111/DSA-Leetcode/tree/master/0135-candy) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/amulya0111/DSA-Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/amulya0111/DSA-Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0321-create-maximum-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0321-create-maximum-number) |
 | [0410-split-array-largest-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/amulya0111/DSA-Leetcode/tree/master/3005-count-elements-with-maximum-frequency) |
 ## Hash Table
@@ -43,12 +44,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/amulya0111/DSA-Leetcode/tree/master/0125-valid-palindrome) |
+| [0321-create-maximum-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0321-create-maximum-number) |
 | [0680-valid-palindrome-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0680-valid-palindrome-ii) |
 ## Greedy
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0135-candy](https://github.com/amulya0111/DSA-Leetcode/tree/master/0135-candy) |
+| [0321-create-maximum-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0321-create-maximum-number) |
 | [0410-split-array-largest-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0680-valid-palindrome-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0680-valid-palindrome-ii) |
 ## Dynamic Programming
@@ -93,4 +96,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/amulya0111/DSA-Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
+## Stack
+|  |
+| ------- |
+| [0321-create-maximum-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0321-create-maximum-number) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0321-create-maximum-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0321-create-maximum-number) |
 <!---LeetCode Topics End-->
