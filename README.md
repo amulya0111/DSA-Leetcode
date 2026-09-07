@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0327-count-of-range-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0327-count-of-range-sum) |
 | [0410-split-array-largest-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/amulya0111/DSA-Leetcode/tree/master/0493-reverse-pairs) |
+| [0769-max-chunks-to-make-sorted](https://github.com/amulya0111/DSA-Leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/amulya0111/DSA-Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0881-boats-to-save-people](https://github.com/amulya0111/DSA-Leetcode/tree/master/0881-boats-to-save-people) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/amulya0111/DSA-Leetcode/tree/master/2091-removing-minimum-and-maximum-from-array) |
@@ -47,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/amulya0111/DSA-Leetcode/tree/master/0049-group-anagrams) |
+| [0769-max-chunks-to-make-sorted](https://github.com/amulya0111/DSA-Leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0881-boats-to-save-people](https://github.com/amulya0111/DSA-Leetcode/tree/master/0881-boats-to-save-people) |
 ## Two Pointers
 |  |
@@ -63,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0321-create-maximum-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0321-create-maximum-number) |
 | [0410-split-array-largest-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0680-valid-palindrome-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0680-valid-palindrome-ii) |
+| [0769-max-chunks-to-make-sorted](https://github.com/amulya0111/DSA-Leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0881-boats-to-save-people](https://github.com/amulya0111/DSA-Leetcode/tree/master/0881-boats-to-save-people) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/amulya0111/DSA-Leetcode/tree/master/2091-removing-minimum-and-maximum-from-array) |
 ## Dynamic Programming
@@ -127,10 +130,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0321-create-maximum-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0321-create-maximum-number) |
+| [0769-max-chunks-to-make-sorted](https://github.com/amulya0111/DSA-Leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0321-create-maximum-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0321-create-maximum-number) |
+| [0769-max-chunks-to-make-sorted](https://github.com/amulya0111/DSA-Leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 ## Math
 |  |
 | ------- |
