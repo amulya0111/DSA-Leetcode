@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0327-count-of-range-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0327-count-of-range-sum) |
 | [0410-split-array-largest-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/amulya0111/DSA-Leetcode/tree/master/0493-reverse-pairs) |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/amulya0111/DSA-Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/amulya0111/DSA-Leetcode/tree/master/3005-count-elements-with-maximum-frequency) |
 ## Hash Table
 |  |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0327-count-of-range-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0327-count-of-range-sum) |
 | [0410-split-array-largest-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/amulya0111/DSA-Leetcode/tree/master/0493-reverse-pairs) |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/amulya0111/DSA-Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -84,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/amulya0111/DSA-Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -138,4 +141,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/amulya0111/DSA-Leetcode/tree/master/0149-max-points-on-a-line) |
+## Queue
+|  |
+| ------- |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/amulya0111/DSA-Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
+## Sliding Window
+|  |
+| ------- |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/amulya0111/DSA-Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/amulya0111/DSA-Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/amulya0111/DSA-Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 <!---LeetCode Topics End-->
