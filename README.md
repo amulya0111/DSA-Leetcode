@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/amulya0111/DSA-Leetcode/tree/master/0149-max-points-on-a-line) |
 | [3870-count-commas-in-range](https://github.com/amulya0111/DSA-Leetcode/tree/master/3870-count-commas-in-range) |
+| [3871-count-commas-in-range-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/3871-count-commas-in-range-ii) |
 ## Geometry
 |  |
 | ------- |
