@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0769-max-chunks-to-make-sorted](https://github.com/amulya0111/DSA-Leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/amulya0111/DSA-Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0881-boats-to-save-people](https://github.com/amulya0111/DSA-Leetcode/tree/master/0881-boats-to-save-people) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/amulya0111/DSA-Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/amulya0111/DSA-Leetcode/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/amulya0111/DSA-Leetcode/tree/master/3005-count-elements-with-maximum-frequency) |
 ## Hash Table
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0493-reverse-pairs](https://github.com/amulya0111/DSA-Leetcode/tree/master/0493-reverse-pairs) |
 | [0611-valid-triangle-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0611-valid-triangle-number) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/amulya0111/DSA-Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/amulya0111/DSA-Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 ## Divide and Conquer
 |  |
 | ------- |
