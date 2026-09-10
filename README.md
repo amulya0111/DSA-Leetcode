@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/amulya0111/DSA-Leetcode/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/amulya0111/DSA-Leetcode/tree/master/0125-valid-palindrome) |
+| [0647-palindromic-substrings](https://github.com/amulya0111/DSA-Leetcode/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [3813-vowel-consonant-score](https://github.com/amulya0111/DSA-Leetcode/tree/master/3813-vowel-consonant-score) |
 ## Simulation
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/amulya0111/DSA-Leetcode/tree/master/0125-valid-palindrome) |
 | [0321-create-maximum-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0321-create-maximum-number) |
 | [0611-valid-triangle-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0611-valid-triangle-number) |
+| [0647-palindromic-substrings](https://github.com/amulya0111/DSA-Leetcode/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0881-boats-to-save-people](https://github.com/amulya0111/DSA-Leetcode/tree/master/0881-boats-to-save-people) |
 ## Greedy
@@ -82,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/amulya0111/DSA-Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0410-split-array-largest-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0647-palindromic-substrings](https://github.com/amulya0111/DSA-Leetcode/tree/master/0647-palindromic-substrings) |
 ## Binary Search
 |  |
 | ------- |
