@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0135-candy](https://github.com/amulya0111/DSA-Leetcode/tree/master/0135-candy) |
 | [0149-max-points-on-a-line](https://github.com/amulya0111/DSA-Leetcode/tree/master/0149-max-points-on-a-line) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/amulya0111/DSA-Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/amulya0111/DSA-Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/amulya0111/DSA-Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0213-house-robber-ii) |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/amulya0111/DSA-Leetcode/tree/master/0125-valid-palindrome) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/amulya0111/DSA-Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0321-create-maximum-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0321-create-maximum-number) |
 | [0611-valid-triangle-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0611-valid-triangle-number) |
 | [0647-palindromic-substrings](https://github.com/amulya0111/DSA-Leetcode/tree/master/0647-palindromic-substrings) |
@@ -97,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/amulya0111/DSA-Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/amulya0111/DSA-Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/amulya0111/DSA-Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0327-count-of-range-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0327-count-of-range-sum) |
 | [0410-split-array-largest-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
