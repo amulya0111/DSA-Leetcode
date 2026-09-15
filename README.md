@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/amulya0111/DSA-Leetcode/tree/master/0049-group-anagrams) |
+| [0076-minimum-window-substring](https://github.com/amulya0111/DSA-Leetcode/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/amulya0111/DSA-Leetcode/tree/master/0125-valid-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/amulya0111/DSA-Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0647-palindromic-substrings](https://github.com/amulya0111/DSA-Leetcode/tree/master/0647-palindromic-substrings) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/amulya0111/DSA-Leetcode/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/amulya0111/DSA-Leetcode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/amulya0111/DSA-Leetcode/tree/master/0049-group-anagrams) |
+| [0076-minimum-window-substring](https://github.com/amulya0111/DSA-Leetcode/tree/master/0076-minimum-window-substring) |
 | [0149-max-points-on-a-line](https://github.com/amulya0111/DSA-Leetcode/tree/master/0149-max-points-on-a-line) |
 | [0424-longest-repeating-character-replacement](https://github.com/amulya0111/DSA-Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/amulya0111/DSA-Leetcode/tree/master/3005-count-elements-with-maximum-frequency) |
@@ -195,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/amulya0111/DSA-Leetcode/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/amulya0111/DSA-Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/amulya0111/DSA-Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 ## Heap (Priority Queue)
