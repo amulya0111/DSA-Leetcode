@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0904-fruit-into-baskets](https://github.com/amulya0111/DSA-Leetcode/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/amulya0111/DSA-Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/amulya0111/DSA-Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1052-grumpy-bookstore-owner](https://github.com/amulya0111/DSA-Leetcode/tree/master/1052-grumpy-bookstore-owner) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/amulya0111/DSA-Leetcode/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/amulya0111/DSA-Leetcode/tree/master/3005-count-elements-with-maximum-frequency) |
 | [3483-unique-3-digit-even-numbers](https://github.com/amulya0111/DSA-Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
@@ -215,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/amulya0111/DSA-Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0904-fruit-into-baskets](https://github.com/amulya0111/DSA-Leetcode/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/amulya0111/DSA-Leetcode/tree/master/1004-max-consecutive-ones-iii) |
+| [1052-grumpy-bookstore-owner](https://github.com/amulya0111/DSA-Leetcode/tree/master/1052-grumpy-bookstore-owner) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
