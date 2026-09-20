@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/amulya0111/DSA-Leetcode/tree/master/0051-n-queens) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
+| [0128-longest-consecutive-sequence](https://github.com/amulya0111/DSA-Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0135-candy](https://github.com/amulya0111/DSA-Leetcode/tree/master/0135-candy) |
 | [0149-max-points-on-a-line](https://github.com/amulya0111/DSA-Leetcode/tree/master/0149-max-points-on-a-line) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/amulya0111/DSA-Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0041-first-missing-positive](https://github.com/amulya0111/DSA-Leetcode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/amulya0111/DSA-Leetcode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/amulya0111/DSA-Leetcode/tree/master/0076-minimum-window-substring) |
+| [0128-longest-consecutive-sequence](https://github.com/amulya0111/DSA-Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0149-max-points-on-a-line](https://github.com/amulya0111/DSA-Leetcode/tree/master/0149-max-points-on-a-line) |
 | [0424-longest-repeating-character-replacement](https://github.com/amulya0111/DSA-Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0904-fruit-into-baskets](https://github.com/amulya0111/DSA-Leetcode/tree/master/0904-fruit-into-baskets) |
@@ -258,4 +260,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3483-unique-3-digit-even-numbers](https://github.com/amulya0111/DSA-Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/amulya0111/DSA-Leetcode/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
