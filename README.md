@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/amulya0111/DSA-Leetcode/tree/master/0012-integer-to-roman) |
 | [0049-group-anagrams](https://github.com/amulya0111/DSA-Leetcode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/amulya0111/DSA-Leetcode/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/amulya0111/DSA-Leetcode/tree/master/0125-valid-palindrome) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/amulya0111/DSA-Leetcode/tree/master/0012-integer-to-roman) |
 | [0037-sudoku-solver](https://github.com/amulya0111/DSA-Leetcode/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/amulya0111/DSA-Leetcode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/amulya0111/DSA-Leetcode/tree/master/0049-group-anagrams) |
@@ -187,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/amulya0111/DSA-Leetcode/tree/master/0012-integer-to-roman) |
 | [0048-rotate-image](https://github.com/amulya0111/DSA-Leetcode/tree/master/0048-rotate-image) |
 | [0149-max-points-on-a-line](https://github.com/amulya0111/DSA-Leetcode/tree/master/0149-max-points-on-a-line) |
 | [0836-rectangle-overlap](https://github.com/amulya0111/DSA-Leetcode/tree/master/0836-rectangle-overlap) |
