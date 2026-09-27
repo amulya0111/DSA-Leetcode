@@ -267,4 +267,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/amulya0111/DSA-Leetcode/tree/master/0128-longest-consecutive-sequence) |
+## Linked List
+|  |
+| ------- |
+| [0328-odd-even-linked-list](https://github.com/amulya0111/DSA-Leetcode/tree/master/0328-odd-even-linked-list) |
 <!---LeetCode Topics End-->
