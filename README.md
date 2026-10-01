@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0012-integer-to-roman](https://github.com/amulya0111/DSA-Leetcode/tree/master/0012-integer-to-roman) |
 | [0049-group-anagrams](https://github.com/amulya0111/DSA-Leetcode/tree/master/0049-group-anagrams) |
+| [0067-add-binary](https://github.com/amulya0111/DSA-Leetcode/tree/master/0067-add-binary) |
 | [0076-minimum-window-substring](https://github.com/amulya0111/DSA-Leetcode/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/amulya0111/DSA-Leetcode/tree/master/0125-valid-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/amulya0111/DSA-Leetcode/tree/master/0424-longest-repeating-character-replacement) |
@@ -15,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/amulya0111/DSA-Leetcode/tree/master/0067-add-binary) |
 | [3813-vowel-consonant-score](https://github.com/amulya0111/DSA-Leetcode/tree/master/3813-vowel-consonant-score) |
 ## Array
 |  |
@@ -196,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0012-integer-to-roman](https://github.com/amulya0111/DSA-Leetcode/tree/master/0012-integer-to-roman) |
 | [0048-rotate-image](https://github.com/amulya0111/DSA-Leetcode/tree/master/0048-rotate-image) |
+| [0067-add-binary](https://github.com/amulya0111/DSA-Leetcode/tree/master/0067-add-binary) |
 | [0149-max-points-on-a-line](https://github.com/amulya0111/DSA-Leetcode/tree/master/0149-max-points-on-a-line) |
 | [0836-rectangle-overlap](https://github.com/amulya0111/DSA-Leetcode/tree/master/0836-rectangle-overlap) |
 | [3870-count-commas-in-range](https://github.com/amulya0111/DSA-Leetcode/tree/master/3870-count-commas-in-range) |
@@ -279,4 +282,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0328-odd-even-linked-list](https://github.com/amulya0111/DSA-Leetcode/tree/master/0328-odd-even-linked-list) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/amulya0111/DSA-Leetcode/tree/master/0067-add-binary) |
 <!---LeetCode Topics End-->
