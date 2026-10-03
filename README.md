@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/amulya0111/DSA-Leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/amulya0111/DSA-Leetcode/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/amulya0111/DSA-Leetcode/tree/master/0051-n-queens) |
+| [0056-merge-intervals](https://github.com/amulya0111/DSA-Leetcode/tree/master/0056-merge-intervals) |
 | [0073-set-matrix-zeroes](https://github.com/amulya0111/DSA-Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/amulya0111/DSA-Leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0018-4sum) |
 | [0049-group-anagrams](https://github.com/amulya0111/DSA-Leetcode/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/amulya0111/DSA-Leetcode/tree/master/0056-merge-intervals) |
 | [0611-valid-triangle-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0611-valid-triangle-number) |
 | [0769-max-chunks-to-make-sorted](https://github.com/amulya0111/DSA-Leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0881-boats-to-save-people](https://github.com/amulya0111/DSA-Leetcode/tree/master/0881-boats-to-save-people) |
@@ -286,4 +288,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/amulya0111/DSA-Leetcode/tree/master/0067-add-binary) |
+## Quicksort
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/amulya0111/DSA-Leetcode/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
