@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/amulya0111/DSA-Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/amulya0111/DSA-Leetcode/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/amulya0111/DSA-Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0142-linked-list-cycle-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0149-max-points-on-a-line](https://github.com/amulya0111/DSA-Leetcode/tree/master/0149-max-points-on-a-line) |
 | [0424-longest-repeating-character-replacement](https://github.com/amulya0111/DSA-Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0904-fruit-into-baskets](https://github.com/amulya0111/DSA-Leetcode/tree/master/0904-fruit-into-baskets) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/amulya0111/DSA-Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/amulya0111/DSA-Leetcode/tree/master/0027-remove-element) |
 | [0125-valid-palindrome](https://github.com/amulya0111/DSA-Leetcode/tree/master/0125-valid-palindrome) |
+| [0142-linked-list-cycle-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/amulya0111/DSA-Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0321-create-maximum-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0321-create-maximum-number) |
 | [0611-valid-triangle-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0611-valid-triangle-number) |
@@ -284,6 +286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0142-linked-list-cycle-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0328-odd-even-linked-list](https://github.com/amulya0111/DSA-Leetcode/tree/master/0328-odd-even-linked-list) |
 ## Bit Manipulation
 |  |
@@ -293,4 +296,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/amulya0111/DSA-Leetcode/tree/master/0056-merge-intervals) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0142-linked-list-cycle-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0142-linked-list-cycle-ii) |
 <!---LeetCode Topics End-->
