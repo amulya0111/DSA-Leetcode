@@ -1,307 +1,49 @@
-A collection of LeetCode questions to ace the coding interview! - Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-|  |
-| ------- |
-| [0012-integer-to-roman](https://github.com/amulya0111/DSA-Leetcode/tree/master/0012-integer-to-roman) |
-| [0049-group-anagrams](https://github.com/amulya0111/DSA-Leetcode/tree/master/0049-group-anagrams) |
-| [0067-add-binary](https://github.com/amulya0111/DSA-Leetcode/tree/master/0067-add-binary) |
-| [0076-minimum-window-substring](https://github.com/amulya0111/DSA-Leetcode/tree/master/0076-minimum-window-substring) |
-| [0125-valid-palindrome](https://github.com/amulya0111/DSA-Leetcode/tree/master/0125-valid-palindrome) |
-| [0424-longest-repeating-character-replacement](https://github.com/amulya0111/DSA-Leetcode/tree/master/0424-longest-repeating-character-replacement) |
-| [0647-palindromic-substrings](https://github.com/amulya0111/DSA-Leetcode/tree/master/0647-palindromic-substrings) |
-| [0680-valid-palindrome-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0680-valid-palindrome-ii) |
-| [3813-vowel-consonant-score](https://github.com/amulya0111/DSA-Leetcode/tree/master/3813-vowel-consonant-score) |
-## Simulation
-|  |
-| ------- |
-| [0067-add-binary](https://github.com/amulya0111/DSA-Leetcode/tree/master/0067-add-binary) |
-| [3813-vowel-consonant-score](https://github.com/amulya0111/DSA-Leetcode/tree/master/3813-vowel-consonant-score) |
-## Array
-|  |
-| ------- |
-| [0004-median-of-two-sorted-arrays](https://github.com/amulya0111/DSA-Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
-| [0016-3sum-closest](https://github.com/amulya0111/DSA-Leetcode/tree/master/0016-3sum-closest) |
-| [0018-4sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0018-4sum) |
-| [0026-remove-duplicates-from-sorted-array](https://github.com/amulya0111/DSA-Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
-| [0027-remove-element](https://github.com/amulya0111/DSA-Leetcode/tree/master/0027-remove-element) |
-| [0037-sudoku-solver](https://github.com/amulya0111/DSA-Leetcode/tree/master/0037-sudoku-solver) |
-| [0041-first-missing-positive](https://github.com/amulya0111/DSA-Leetcode/tree/master/0041-first-missing-positive) |
-| [0048-rotate-image](https://github.com/amulya0111/DSA-Leetcode/tree/master/0048-rotate-image) |
-| [0049-group-anagrams](https://github.com/amulya0111/DSA-Leetcode/tree/master/0049-group-anagrams) |
-| [0051-n-queens](https://github.com/amulya0111/DSA-Leetcode/tree/master/0051-n-queens) |
-| [0056-merge-intervals](https://github.com/amulya0111/DSA-Leetcode/tree/master/0056-merge-intervals) |
-| [0057-insert-interval](https://github.com/amulya0111/DSA-Leetcode/tree/master/0057-insert-interval) |
-| [0073-set-matrix-zeroes](https://github.com/amulya0111/DSA-Leetcode/tree/master/0073-set-matrix-zeroes) |
-| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
-| [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
-| [0128-longest-consecutive-sequence](https://github.com/amulya0111/DSA-Leetcode/tree/master/0128-longest-consecutive-sequence) |
-| [0135-candy](https://github.com/amulya0111/DSA-Leetcode/tree/master/0135-candy) |
-| [0149-max-points-on-a-line](https://github.com/amulya0111/DSA-Leetcode/tree/master/0149-max-points-on-a-line) |
-| [0167-two-sum-ii-input-array-is-sorted](https://github.com/amulya0111/DSA-Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
-| [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/amulya0111/DSA-Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
-| [0198-house-robber](https://github.com/amulya0111/DSA-Leetcode/tree/master/0198-house-robber) |
-| [0209-minimum-size-subarray-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0209-minimum-size-subarray-sum) |
-| [0213-house-robber-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0213-house-robber-ii) |
-| [0315-count-of-smaller-numbers-after-self](https://github.com/amulya0111/DSA-Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
-| [0321-create-maximum-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0321-create-maximum-number) |
-| [0327-count-of-range-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0327-count-of-range-sum) |
-| [0410-split-array-largest-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
-| [0493-reverse-pairs](https://github.com/amulya0111/DSA-Leetcode/tree/master/0493-reverse-pairs) |
-| [0611-valid-triangle-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0611-valid-triangle-number) |
-| [0769-max-chunks-to-make-sorted](https://github.com/amulya0111/DSA-Leetcode/tree/master/0769-max-chunks-to-make-sorted) |
-| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/amulya0111/DSA-Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
-| [0881-boats-to-save-people](https://github.com/amulya0111/DSA-Leetcode/tree/master/0881-boats-to-save-people) |
-| [0904-fruit-into-baskets](https://github.com/amulya0111/DSA-Leetcode/tree/master/0904-fruit-into-baskets) |
-| [0918-maximum-sum-circular-subarray](https://github.com/amulya0111/DSA-Leetcode/tree/master/0918-maximum-sum-circular-subarray) |
-| [1004-max-consecutive-ones-iii](https://github.com/amulya0111/DSA-Leetcode/tree/master/1004-max-consecutive-ones-iii) |
-| [1011-capacity-to-ship-packages-within-d-days](https://github.com/amulya0111/DSA-Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
-| [1052-grumpy-bookstore-owner](https://github.com/amulya0111/DSA-Leetcode/tree/master/1052-grumpy-bookstore-owner) |
-| [2091-removing-minimum-and-maximum-from-array](https://github.com/amulya0111/DSA-Leetcode/tree/master/2091-removing-minimum-and-maximum-from-array) |
-| [3005-count-elements-with-maximum-frequency](https://github.com/amulya0111/DSA-Leetcode/tree/master/3005-count-elements-with-maximum-frequency) |
-| [3483-unique-3-digit-even-numbers](https://github.com/amulya0111/DSA-Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
-## Hash Table
-|  |
-| ------- |
-| [0012-integer-to-roman](https://github.com/amulya0111/DSA-Leetcode/tree/master/0012-integer-to-roman) |
-| [0037-sudoku-solver](https://github.com/amulya0111/DSA-Leetcode/tree/master/0037-sudoku-solver) |
-| [0041-first-missing-positive](https://github.com/amulya0111/DSA-Leetcode/tree/master/0041-first-missing-positive) |
-| [0049-group-anagrams](https://github.com/amulya0111/DSA-Leetcode/tree/master/0049-group-anagrams) |
-| [0073-set-matrix-zeroes](https://github.com/amulya0111/DSA-Leetcode/tree/master/0073-set-matrix-zeroes) |
-| [0076-minimum-window-substring](https://github.com/amulya0111/DSA-Leetcode/tree/master/0076-minimum-window-substring) |
-| [0128-longest-consecutive-sequence](https://github.com/amulya0111/DSA-Leetcode/tree/master/0128-longest-consecutive-sequence) |
-| [0138-copy-list-with-random-pointer](https://github.com/amulya0111/DSA-Leetcode/tree/master/0138-copy-list-with-random-pointer) |
-| [0142-linked-list-cycle-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0142-linked-list-cycle-ii) |
-| [0149-max-points-on-a-line](https://github.com/amulya0111/DSA-Leetcode/tree/master/0149-max-points-on-a-line) |
-| [0424-longest-repeating-character-replacement](https://github.com/amulya0111/DSA-Leetcode/tree/master/0424-longest-repeating-character-replacement) |
-| [0904-fruit-into-baskets](https://github.com/amulya0111/DSA-Leetcode/tree/master/0904-fruit-into-baskets) |
-| [3005-count-elements-with-maximum-frequency](https://github.com/amulya0111/DSA-Leetcode/tree/master/3005-count-elements-with-maximum-frequency) |
-| [3483-unique-3-digit-even-numbers](https://github.com/amulya0111/DSA-Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
-## Counting
-|  |
-| ------- |
-| [3005-count-elements-with-maximum-frequency](https://github.com/amulya0111/DSA-Leetcode/tree/master/3005-count-elements-with-maximum-frequency) |
-## Sorting
-|  |
-| ------- |
-| [0016-3sum-closest](https://github.com/amulya0111/DSA-Leetcode/tree/master/0016-3sum-closest) |
-| [0018-4sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0018-4sum) |
-| [0049-group-anagrams](https://github.com/amulya0111/DSA-Leetcode/tree/master/0049-group-anagrams) |
-| [0056-merge-intervals](https://github.com/amulya0111/DSA-Leetcode/tree/master/0056-merge-intervals) |
-| [0611-valid-triangle-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0611-valid-triangle-number) |
-| [0769-max-chunks-to-make-sorted](https://github.com/amulya0111/DSA-Leetcode/tree/master/0769-max-chunks-to-make-sorted) |
-| [0881-boats-to-save-people](https://github.com/amulya0111/DSA-Leetcode/tree/master/0881-boats-to-save-people) |
-## Two Pointers
-|  |
-| ------- |
-| [0016-3sum-closest](https://github.com/amulya0111/DSA-Leetcode/tree/master/0016-3sum-closest) |
-| [0018-4sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0018-4sum) |
-| [0026-remove-duplicates-from-sorted-array](https://github.com/amulya0111/DSA-Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
-| [0027-remove-element](https://github.com/amulya0111/DSA-Leetcode/tree/master/0027-remove-element) |
-| [0061-rotate-list](https://github.com/amulya0111/DSA-Leetcode/tree/master/0061-rotate-list) |
-| [0125-valid-palindrome](https://github.com/amulya0111/DSA-Leetcode/tree/master/0125-valid-palindrome) |
-| [0142-linked-list-cycle-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0142-linked-list-cycle-ii) |
-| [0167-two-sum-ii-input-array-is-sorted](https://github.com/amulya0111/DSA-Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
-| [0321-create-maximum-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0321-create-maximum-number) |
-| [0611-valid-triangle-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0611-valid-triangle-number) |
-| [0647-palindromic-substrings](https://github.com/amulya0111/DSA-Leetcode/tree/master/0647-palindromic-substrings) |
-| [0680-valid-palindrome-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0680-valid-palindrome-ii) |
-| [0881-boats-to-save-people](https://github.com/amulya0111/DSA-Leetcode/tree/master/0881-boats-to-save-people) |
-## Greedy
-|  |
-| ------- |
-| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
-| [0135-candy](https://github.com/amulya0111/DSA-Leetcode/tree/master/0135-candy) |
-| [0321-create-maximum-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0321-create-maximum-number) |
-| [0410-split-array-largest-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
-| [0611-valid-triangle-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0611-valid-triangle-number) |
-| [0680-valid-palindrome-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0680-valid-palindrome-ii) |
-| [0769-max-chunks-to-make-sorted](https://github.com/amulya0111/DSA-Leetcode/tree/master/0769-max-chunks-to-make-sorted) |
-| [0881-boats-to-save-people](https://github.com/amulya0111/DSA-Leetcode/tree/master/0881-boats-to-save-people) |
-| [2091-removing-minimum-and-maximum-from-array](https://github.com/amulya0111/DSA-Leetcode/tree/master/2091-removing-minimum-and-maximum-from-array) |
-## Dynamic Programming
-|  |
-| ------- |
-| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
-| [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
-| [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/amulya0111/DSA-Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
-| [0198-house-robber](https://github.com/amulya0111/DSA-Leetcode/tree/master/0198-house-robber) |
-| [0213-house-robber-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0213-house-robber-ii) |
-| [0410-split-array-largest-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
-| [0647-palindromic-substrings](https://github.com/amulya0111/DSA-Leetcode/tree/master/0647-palindromic-substrings) |
-| [0918-maximum-sum-circular-subarray](https://github.com/amulya0111/DSA-Leetcode/tree/master/0918-maximum-sum-circular-subarray) |
-## Binary Search
-|  |
-| ------- |
-| [0004-median-of-two-sorted-arrays](https://github.com/amulya0111/DSA-Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
-| [0167-two-sum-ii-input-array-is-sorted](https://github.com/amulya0111/DSA-Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
-| [0209-minimum-size-subarray-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0209-minimum-size-subarray-sum) |
-| [0315-count-of-smaller-numbers-after-self](https://github.com/amulya0111/DSA-Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
-| [0327-count-of-range-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0327-count-of-range-sum) |
-| [0410-split-array-largest-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
-| [0493-reverse-pairs](https://github.com/amulya0111/DSA-Leetcode/tree/master/0493-reverse-pairs) |
-| [0611-valid-triangle-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0611-valid-triangle-number) |
-| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/amulya0111/DSA-Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
-| [1004-max-consecutive-ones-iii](https://github.com/amulya0111/DSA-Leetcode/tree/master/1004-max-consecutive-ones-iii) |
-| [1011-capacity-to-ship-packages-within-d-days](https://github.com/amulya0111/DSA-Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
-## Divide and Conquer
-|  |
-| ------- |
-| [0004-median-of-two-sorted-arrays](https://github.com/amulya0111/DSA-Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
-| [0315-count-of-smaller-numbers-after-self](https://github.com/amulya0111/DSA-Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
-| [0327-count-of-range-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0327-count-of-range-sum) |
-| [0493-reverse-pairs](https://github.com/amulya0111/DSA-Leetcode/tree/master/0493-reverse-pairs) |
-| [0918-maximum-sum-circular-subarray](https://github.com/amulya0111/DSA-Leetcode/tree/master/0918-maximum-sum-circular-subarray) |
-## Prefix Sum
-|  |
-| ------- |
-| [0209-minimum-size-subarray-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0209-minimum-size-subarray-sum) |
-| [0410-split-array-largest-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0410-split-array-largest-sum) |
-| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/amulya0111/DSA-Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
-| [1004-max-consecutive-ones-iii](https://github.com/amulya0111/DSA-Leetcode/tree/master/1004-max-consecutive-ones-iii) |
-## Binary Indexed Tree
-|  |
-| ------- |
-| [0315-count-of-smaller-numbers-after-self](https://github.com/amulya0111/DSA-Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
-| [0327-count-of-range-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0327-count-of-range-sum) |
-| [0493-reverse-pairs](https://github.com/amulya0111/DSA-Leetcode/tree/master/0493-reverse-pairs) |
-## Segment Tree
-|  |
-| ------- |
-| [0315-count-of-smaller-numbers-after-self](https://github.com/amulya0111/DSA-Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
-| [0327-count-of-range-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0327-count-of-range-sum) |
-| [0493-reverse-pairs](https://github.com/amulya0111/DSA-Leetcode/tree/master/0493-reverse-pairs) |
-## Merge Sort
-|  |
-| ------- |
-| [0315-count-of-smaller-numbers-after-self](https://github.com/amulya0111/DSA-Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
-| [0327-count-of-range-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0327-count-of-range-sum) |
-| [0493-reverse-pairs](https://github.com/amulya0111/DSA-Leetcode/tree/master/0493-reverse-pairs) |
-## Ordered Set
-|  |
-| ------- |
-| [0315-count-of-smaller-numbers-after-self](https://github.com/amulya0111/DSA-Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
-| [0327-count-of-range-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0327-count-of-range-sum) |
-| [0493-reverse-pairs](https://github.com/amulya0111/DSA-Leetcode/tree/master/0493-reverse-pairs) |
-## Treap
-|  |
-| ------- |
-| [0315-count-of-smaller-numbers-after-self](https://github.com/amulya0111/DSA-Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
-| [0327-count-of-range-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0327-count-of-range-sum) |
-| [0493-reverse-pairs](https://github.com/amulya0111/DSA-Leetcode/tree/master/0493-reverse-pairs) |
-## Stack
-|  |
-| ------- |
-| [0321-create-maximum-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0321-create-maximum-number) |
-| [0769-max-chunks-to-make-sorted](https://github.com/amulya0111/DSA-Leetcode/tree/master/0769-max-chunks-to-make-sorted) |
-## Monotonic Stack
-|  |
-| ------- |
-| [0321-create-maximum-number](https://github.com/amulya0111/DSA-Leetcode/tree/master/0321-create-maximum-number) |
-| [0769-max-chunks-to-make-sorted](https://github.com/amulya0111/DSA-Leetcode/tree/master/0769-max-chunks-to-make-sorted) |
-## Math
-|  |
-| ------- |
-| [0012-integer-to-roman](https://github.com/amulya0111/DSA-Leetcode/tree/master/0012-integer-to-roman) |
-| [0048-rotate-image](https://github.com/amulya0111/DSA-Leetcode/tree/master/0048-rotate-image) |
-| [0067-add-binary](https://github.com/amulya0111/DSA-Leetcode/tree/master/0067-add-binary) |
-| [0149-max-points-on-a-line](https://github.com/amulya0111/DSA-Leetcode/tree/master/0149-max-points-on-a-line) |
-| [0836-rectangle-overlap](https://github.com/amulya0111/DSA-Leetcode/tree/master/0836-rectangle-overlap) |
-| [3870-count-commas-in-range](https://github.com/amulya0111/DSA-Leetcode/tree/master/3870-count-commas-in-range) |
-| [3871-count-commas-in-range-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/3871-count-commas-in-range-ii) |
-## Geometry
-|  |
-| ------- |
-| [0149-max-points-on-a-line](https://github.com/amulya0111/DSA-Leetcode/tree/master/0149-max-points-on-a-line) |
-| [0836-rectangle-overlap](https://github.com/amulya0111/DSA-Leetcode/tree/master/0836-rectangle-overlap) |
-## Euclidean Algorithm
-|  |
-| ------- |
-| [0149-max-points-on-a-line](https://github.com/amulya0111/DSA-Leetcode/tree/master/0149-max-points-on-a-line) |
-## Greatest Common Divisor
-|  |
-| ------- |
-| [0149-max-points-on-a-line](https://github.com/amulya0111/DSA-Leetcode/tree/master/0149-max-points-on-a-line) |
-## Queue
-|  |
-| ------- |
-| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/amulya0111/DSA-Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
-| [0918-maximum-sum-circular-subarray](https://github.com/amulya0111/DSA-Leetcode/tree/master/0918-maximum-sum-circular-subarray) |
-## Sliding Window
-|  |
-| ------- |
-| [0076-minimum-window-substring](https://github.com/amulya0111/DSA-Leetcode/tree/master/0076-minimum-window-substring) |
-| [0209-minimum-size-subarray-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0209-minimum-size-subarray-sum) |
-| [0424-longest-repeating-character-replacement](https://github.com/amulya0111/DSA-Leetcode/tree/master/0424-longest-repeating-character-replacement) |
-| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/amulya0111/DSA-Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
-| [0904-fruit-into-baskets](https://github.com/amulya0111/DSA-Leetcode/tree/master/0904-fruit-into-baskets) |
-| [1004-max-consecutive-ones-iii](https://github.com/amulya0111/DSA-Leetcode/tree/master/1004-max-consecutive-ones-iii) |
-| [1052-grumpy-bookstore-owner](https://github.com/amulya0111/DSA-Leetcode/tree/master/1052-grumpy-bookstore-owner) |
-## Heap (Priority Queue)
-|  |
-| ------- |
-| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/amulya0111/DSA-Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
-## Monotonic Queue
-|  |
-| ------- |
-| [0862-shortest-subarray-with-sum-at-least-k](https://github.com/amulya0111/DSA-Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
-| [0918-maximum-sum-circular-subarray](https://github.com/amulya0111/DSA-Leetcode/tree/master/0918-maximum-sum-circular-subarray) |
-## Timsort
-|  |
-| ------- |
-| [0881-boats-to-save-people](https://github.com/amulya0111/DSA-Leetcode/tree/master/0881-boats-to-save-people) |
-## Backtracking
-|  |
-| ------- |
-| [0037-sudoku-solver](https://github.com/amulya0111/DSA-Leetcode/tree/master/0037-sudoku-solver) |
-| [0051-n-queens](https://github.com/amulya0111/DSA-Leetcode/tree/master/0051-n-queens) |
-| [0052-n-queens-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0052-n-queens-ii) |
-## Matrix
-|  |
-| ------- |
-| [0037-sudoku-solver](https://github.com/amulya0111/DSA-Leetcode/tree/master/0037-sudoku-solver) |
-| [0048-rotate-image](https://github.com/amulya0111/DSA-Leetcode/tree/master/0048-rotate-image) |
-| [0073-set-matrix-zeroes](https://github.com/amulya0111/DSA-Leetcode/tree/master/0073-set-matrix-zeroes) |
-## Algorithm X
-|  |
-| ------- |
-| [0037-sudoku-solver](https://github.com/amulya0111/DSA-Leetcode/tree/master/0037-sudoku-solver) |
-| [0051-n-queens](https://github.com/amulya0111/DSA-Leetcode/tree/master/0051-n-queens) |
-| [0052-n-queens-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0052-n-queens-ii) |
-## Dancing Links
-|  |
-| ------- |
-| [0037-sudoku-solver](https://github.com/amulya0111/DSA-Leetcode/tree/master/0037-sudoku-solver) |
-## Recursion
-|  |
-| ------- |
-| [3483-unique-3-digit-even-numbers](https://github.com/amulya0111/DSA-Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
-## Enumeration
-|  |
-| ------- |
-| [3483-unique-3-digit-even-numbers](https://github.com/amulya0111/DSA-Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
-## Union-Find
-|  |
-| ------- |
-| [0128-longest-consecutive-sequence](https://github.com/amulya0111/DSA-Leetcode/tree/master/0128-longest-consecutive-sequence) |
-## Linked List
-|  |
-| ------- |
-| [0061-rotate-list](https://github.com/amulya0111/DSA-Leetcode/tree/master/0061-rotate-list) |
-| [0138-copy-list-with-random-pointer](https://github.com/amulya0111/DSA-Leetcode/tree/master/0138-copy-list-with-random-pointer) |
-| [0142-linked-list-cycle-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0142-linked-list-cycle-ii) |
-| [0328-odd-even-linked-list](https://github.com/amulya0111/DSA-Leetcode/tree/master/0328-odd-even-linked-list) |
-## Bit Manipulation
-|  |
-| ------- |
-| [0067-add-binary](https://github.com/amulya0111/DSA-Leetcode/tree/master/0067-add-binary) |
-## Quicksort
-|  |
-| ------- |
-| [0056-merge-intervals](https://github.com/amulya0111/DSA-Leetcode/tree/master/0056-merge-intervals) |
-## Floyd's Cycle Finding Algorithm
-|  |
-| ------- |
-| [0142-linked-list-cycle-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0142-linked-list-cycle-ii) |
-<!---LeetCode Topics End-->
+<div align="center">
+
+# 🧠 Coding Solutions
+
+![Total Solved](https://img.shields.io/badge/Total_Solved-1-blue?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Streak-1_days-orange?style=for-the-badge)
+![Last Synced](https://img.shields.io/badge/Last_Synced-06--10--2026-green?style=for-the-badge)
+
+> 🚀 Auto-synced by [**PushMyCode**](https://github.com/PushMyCode-HQ) — solve it, forget it, it's on GitHub.
+
+</div>
+
+---
+
+## 📊 Stats
+
+| Difficulty | Solved |
+|:---:|:---:|
+| 🟢 Easy | **0** |
+| 🟡 Medium | **1** |
+| 🔴 Hard | **0** |
+| **Total** | **1** |
+
+## 🛠️ Languages
+
+| Language | Solutions |
+|:---:|:---:|
+| Python | **1** |
+
+## 📂 Repository Structure
+
+```
+📦 coding-solutions/
+├── leetcode/
+│   ├── easy/
+│   ├── medium/
+│   └── hard/
+├── hackerrank/
+├── codechef/
+└── gfg/
+```
+
+---
+
+<div align="center">
+
+*Last updated: 2026-10-06* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
+
+</div>
