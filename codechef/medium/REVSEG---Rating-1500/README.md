@@ -74,7 +74,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-06T16:58:43.420Z  
+**Submitted:** 2026-10-06T17:03:04.477Z  
 
 ```py
 """
@@ -85,38 +85,31 @@ class Node:
 """
 
 def reverseSegment(head, L, R):
-    temp=head
-    if not head or L==R:
-        res=[]
-        curr=dummy.next
-        while curr:
-            res.append(str(curr.data))
-            curr=curr.next
-        print(" ".join(res))
+    if not head or L == R:
+        return head
         
-    dummy=Node(-1)
-    dummy.next=head 
-    prev=dummy
+    dummy = Node(-1)
+    dummy.next = head 
+    prev = dummy
+    
     for i in range(L-1):
-        prev=prev.next
-    rev_tail=prev.next
-    curr=rev_tail
-    prev_rev=None
+        prev = prev.next
+        
+    rev_tail = prev.next
+    curr = rev_tail
+    prev_rev = None
     
     for i in range(R-L+1):
-        next_temp=curr.next
-        curr.next=prev_rev
-        prev_rev=curr
-        curr=next_temp
-    prev.next=prev_rev
-    rev_tail.next=curr
-    # you cant return 
-    res=[]
-    curr=dummy.next
-    while curr:
-        res.append(str(curr.data))
-        curr=curr.next
-    print(" ".join(res))
+        next_temp = curr.next
+        curr.next = prev_rev
+        prev_rev = curr
+        curr = next_temp
+        
+    prev.next = prev_rev
+    rev_tail.next = curr
+    
+    curr = dummy.next
+    return curr
 ```
 
 ---
