@@ -74,7 +74,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T05:32:18.594Z  
+**Submitted:** 2026-10-07T05:34:11.173Z  
 
 ```py
 # Definition for a node.
