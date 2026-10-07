@@ -55,7 +55,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T03:14:24.772Z  
+**Submitted:** 2026-10-07T03:17:12.173Z  
 
 ```py
 def sortList(head):
