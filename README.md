@@ -47,3 +47,14 @@
 *Last updated: 2026-10-08* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0066-plus-one](https://github.com/amulya0111/DSA-Leetcode/tree/master/0066-plus-one) |
+## Math
+|  |
+| ------- |
+| [0066-plus-one](https://github.com/amulya0111/DSA-Leetcode/tree/master/0066-plus-one) |
+<!---LeetCode Topics End-->
