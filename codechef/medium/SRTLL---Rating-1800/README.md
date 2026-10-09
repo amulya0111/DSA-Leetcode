@@ -62,7 +62,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-09T18:17:37.569Z  
+**Submitted:** 2026-10-09T18:19:07.817Z  
 
 ```py
 import sys
