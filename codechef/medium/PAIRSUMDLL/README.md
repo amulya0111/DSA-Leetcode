@@ -82,7 +82,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-10T03:58:16.098Z  
+**Submitted:** 2026-10-10T03:58:41.369Z  
 
 ```py
 #class Node:
@@ -104,7 +104,7 @@ def findPairs(head, tail, target):
         elif s>target:
             right=right.prev
         else:
-            result.append(f" [{left.data},{right.data}]")
+            result.append(f"[{left.data}, {right.data}]")
             left=left.next
             right=right.prev
     if not result:
