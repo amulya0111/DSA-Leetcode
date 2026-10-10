@@ -17,7 +17,7 @@ def findPairs(head, tail, target):
         elif s>target:
             right=right.prev
         else:
-            result.append(f"[{left.data},{right.data}]")
+            result.append(f" [{left.data},{right.data}]")
             left=left.next
             right=right.prev
     if not result:
