@@ -82,7 +82,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-10T03:55:57.952Z  
+**Submitted:** 2026-10-10T03:57:33.542Z  
 
 ```py
 #class Node:
@@ -97,7 +97,7 @@ def findPairs(head, tail, target):
     # find last node 
     right=tail
     left=head
-    while left.data < right.data:
+    while left and right and left.data < right.data:
         s=left.data+right.data
         if s<target:
             left=left.next
