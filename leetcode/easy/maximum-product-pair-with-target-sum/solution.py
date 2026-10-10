@@ -4,17 +4,12 @@ class Solution(object):
         r=len(nums)-1
         result=[-1,-1]
         ans=float("-inf")
-        while l<=r:
-            s=nums[l]+nums[r]
-            if s<target:
-                l+=1
-            elif s>target:
-                r-=1
-            else:
-                if ans<(nums[l]*nums[r]):
-                    result=[r,l]
-                    ans=(nums[l]*nums[r])
-                l+=1
-                r-=1
+        for i in range(len(nums)):
+            for j in range(i+1,len(nums)):
+                if nums[i]+nums[j]==target:
+                    if ans<nums[i]*nums[j] and nums[i]!=nums[j]:
+                        ans=nums[i]*nums[j]
+                        result=[i,j] if nums[i]>nums[j] else [j,i]
+                        
             
         return result
