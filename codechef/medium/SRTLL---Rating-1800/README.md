@@ -62,11 +62,11 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-10T01:12:25.274Z  
+**Submitted:** 2026-10-10T01:12:41.817Z  
 
 ```py
-import sys
-sys.setrecursionlimit(200000)
+# import sys
+# sys.setrecursionlimit(200000)
 
 class Solution:
     def rearrange(self, head):
