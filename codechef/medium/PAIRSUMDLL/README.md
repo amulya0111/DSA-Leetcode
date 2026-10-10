@@ -82,7 +82,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-10T03:58:41.369Z  
+**Submitted:** 2026-10-10T04:03:23.013Z  
 
 ```py
 #class Node:
