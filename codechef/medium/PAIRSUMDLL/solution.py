@@ -10,7 +10,7 @@ def findPairs(head, tail, target):
     # find last node 
     right=tail
     left=head
-    while left.data < right.data:
+    while left and right and left.data < right.data:
         s=left.data+right.data
         if s<target:
             left=left.next
