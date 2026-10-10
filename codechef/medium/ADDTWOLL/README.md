@@ -92,7 +92,7 @@ Reverse $\rightarrow$ `0 0 2`
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-10T01:39:04.264Z  
+**Submitted:** 2026-10-10T01:39:45.780Z  
 
 ```py
 #class Node:
