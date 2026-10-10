@@ -84,7 +84,7 @@ We need to make groups of 2 and reverse them. So, final linked list will be
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-10T02:12:28.481Z  
+**Submitted:** 2026-10-10T03:15:20.176Z  
 
 ```py
 # class Node:
