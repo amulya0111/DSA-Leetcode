@@ -1,5 +1,5 @@
-import sys
-sys.setrecursionlimit(200000)
+# import sys
+# sys.setrecursionlimit(200000)
 
 class Solution:
     def rearrange(self, head):
