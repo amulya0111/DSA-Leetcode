@@ -63,10 +63,18 @@ For the third test case, Chef buys only the most expensive item, which costs $11
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-12T16:22:16.456Z  
+**Submitted:** 2026-10-12T16:22:38.946Z  
 
 ```py
 # cook your dish here
+
+t = int(input())
+
+for _ in range(t):
+    n, k = map(int, input().split())
+    c = list(map(int, input().split()))
+    c.sort(reverse=True)
+    print(sum(c[:k]))
 
 ```
 
