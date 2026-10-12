@@ -2,7 +2,7 @@
 
 # 🧠 Coding Solutions
 
-![Total Solved](https://img.shields.io/badge/Total_Solved-56-blue?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total_Solved-55-blue?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Streak-7_days-orange?style=for-the-badge)
 ![Last Synced](https://img.shields.io/badge/Last_Synced-12--10--2026-green?style=for-the-badge)
 
@@ -17,15 +17,15 @@
 | Difficulty | Solved |
 |:---:|:---:|
 | 🟢 Easy | **5** |
-| 🟡 Medium | **51** |
+| 🟡 Medium | **50** |
 | 🔴 Hard | **0** |
-| **Total** | **56** |
+| **Total** | **55** |
 
 ## 🛠️ Languages
 
 | Language | Solutions |
 |:---:|:---:|
-| Python | **56** |
+| Python | **55** |
 
 ## 📂 Repository Structure
 
@@ -47,3 +47,10 @@
 *Last updated: 2026-10-12* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## String
+|  |
+| ------- |
+| [0008-string-to-integer-atoi](https://github.com/amulya0111/DSA-Leetcode/tree/master/0008-string-to-integer-atoi) |
+<!---LeetCode Topics End-->
