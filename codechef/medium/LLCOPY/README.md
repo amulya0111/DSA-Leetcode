@@ -96,7 +96,7 @@ The list is empty, so the output is also empty.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-10T04:10:38.164Z  
+**Submitted:** 2026-10-13T15:55:56.043Z  
 
 ```py
 #class Node:
