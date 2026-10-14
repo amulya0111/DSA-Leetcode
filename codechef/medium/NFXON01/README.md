@@ -55,7 +55,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T16:32:30.205Z  
+**Submitted:** 2026-10-14T16:33:53.592Z  
 
 ```py
 def findNextGreaterElements(numbers):
@@ -66,8 +66,8 @@ def findNextGreaterElements(numbers):
     for k in range(2 * n):
         i = k % n
         while stack and nums[stack[-1]] < nums[i]:
-            j = stack.pop()
-            ans[j] = nums[i]
+            idx = stack.pop()
+            ans[idx] = nums[i]
         if k < n:
             stack.append(i)
 
