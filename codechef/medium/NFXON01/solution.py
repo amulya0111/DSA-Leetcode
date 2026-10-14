@@ -6,8 +6,8 @@ def findNextGreaterElements(numbers):
     for k in range(2 * n):
         i = k % n
         while stack and nums[stack[-1]] < nums[i]:
-            j = stack.pop()
-            ans[j] = nums[i]
+            idx = stack.pop()
+            ans[idx] = nums[i]
         if k < n:
             stack.append(i)
 
