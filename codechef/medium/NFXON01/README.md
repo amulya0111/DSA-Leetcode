@@ -55,25 +55,26 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T16:29:47.379Z  
+**Submitted:** 2026-10-14T16:31:20.828Z  
 
 ```py
 def findNextGreaterElements(numbers):
-    stack=[]
-    n=len(numbers)
-    ans=[-1]*n
-    for i in range(0,n):
-        while stack and numbers[stack[-1]]<=numbers[i]:
-            idx=stack.pop()
-            ans[idx]=numbers[i] 
-        stack.append(i)
-    for i in range(n-1,-1,-1):\
-        while stack and numbers[stack[-1]]<=numbers[i]:
-            idx=stack.pop()
-            ans[idx]=numbers[i] 
-        
-    return ans
-        
+    nums=numbers
+    n = len(nums)
+        ans = [-1] * n
+        stack = []
+
+        for k in range(2 * n):
+            i = k % n
+
+            while stack and nums[stack[-1]] < nums[i]:
+                j = stack.pop()
+                a.ns[j] = nums[i]
+
+            if k < n:
+                stack.append(i)
+
+        return ans
 ```
 
 ---
