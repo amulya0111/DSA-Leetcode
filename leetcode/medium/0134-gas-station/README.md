@@ -55,9 +55,9 @@ Therefore, you can't travel around the circuit once no matter where you start.
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 12.1 MB  
-**Submitted:** 2026-10-16T16:28:17.611Z  
+**Runtime:** 51 ms (beats 20.03%)  
+**Memory:** 18.4 MB (beats 15.43%)  
+**Submitted:** 2026-10-16T16:28:23.582Z  
 
 ```py
 class Solution(object):
