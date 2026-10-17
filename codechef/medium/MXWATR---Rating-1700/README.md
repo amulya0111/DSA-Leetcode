@@ -73,7 +73,7 @@ This swimming pool has 2 sections :
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-17T04:33:54.415Z  
+**Submitted:** 2026-10-17T04:34:43.772Z  
 
 ```py
 # cook your dish here
@@ -85,7 +85,7 @@ for _ in range(t):
     water=0
     curr=0
     for i in range(n):
-        if stack and height[i] >= height[stack[0]]:
+        if stack and height[i] > height[stack[0]]:
             water = max(water, curr)
             curr = 0
             stack = []
