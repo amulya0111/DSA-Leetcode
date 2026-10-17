@@ -7,7 +7,7 @@ for _ in range(t):
     water=0
     curr=0
     for i in range(n):
-        if stack and height[i] >= height[stack[0]]:
+        if stack and height[i] > height[stack[0]]:
             water = max(water, curr)
             curr = 0
             stack = []
