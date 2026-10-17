@@ -73,19 +73,19 @@ This swimming pool has 2 sections :
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-17T04:35:50.049Z  
+**Submitted:** 2026-10-17T04:36:15.628Z  
 
 ```py
 # cook your dish here
 t = int(input())
 
-def max_vol(H):
-    if len(H) < 3:
+def max_vol(arr):
+    if len(arr) < 3:
         return 0
     max_height = 0
     cur_vol = 0
     max_v = 0
-    for h in H:
+    for h in arr:
         if h >= max_height:
             max_height = h 
             max_v = max(max_v, cur_vol)
@@ -98,17 +98,15 @@ for _ in range(t):
     n = int(input())
     height = list(map(int, input().split()))
     
-    # Find the tallest wall in the pool
     h_max = max(height)
     h_max_ind = height.index(h_max)
     
-    # Split the pool into left part and right part relative to the tallest wall
-    H_left = height[:h_max_ind + 1]
-    H_right = height[h_max_ind:]
-    H_right.reverse()
+    h_left = height[:h_max_ind + 1]
+    h_right = height[h_max_ind:]
+    h_right.reverse()
     
-    max_left = max_vol(H_left)
-    max_right = max_vol(H_right)
+    max_left = max_vol(h_left)
+    max_right = max_vol(h_right)
     
     print(max(max_left, max_right))
 ```
