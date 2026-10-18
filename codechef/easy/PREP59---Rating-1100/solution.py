@@ -1,28 +1,23 @@
-def is_valid_parentheses(s):
-    balance = 0
-    for char in s:
-        if char == '(':
-            balance += 1
-        else:  # char == ')'
-            if balance == 0:
-                return False
-            balance -= 1
-    return balance == 0
-
 def main():
-    import sys
-    input_data = sys.stdin.read().strip().split()
-    if not input_data: 
-        return
-    t = int(input_data[0])
-    results = []
-    for i in range(1, t + 1):
-        s = input_data[i]
-        if is_valid_parentheses(s):
-            results.append("1")
+    t = int(input())
+    for _ in range(t):
+        s = input().strip()
+        stack = []
+        is_valid = True
+        
+        for char in s:
+            if char == '(':
+                stack.append(char)
+            else:
+                if not stack:
+                    is_valid = False
+                    break
+                stack.pop()
+        
+        if is_valid and len(stack) == 0:
+            print(1)
         else:
-            results.append("0")
-    sys.stdout.write("\n".join(results))
+            print(0)
 
 if __name__ == "__main__":
     main()
