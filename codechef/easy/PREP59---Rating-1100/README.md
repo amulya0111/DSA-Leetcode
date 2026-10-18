@@ -58,32 +58,28 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-18T16:45:54.017Z  
+**Submitted:** 2026-10-18T16:46:12.397Z  
 
 ```py
-def main():
-    t = int(input())
-    for _ in range(t):
-        s = input().strip()
-        stack = []
-        is_valid = True
-        
-        for char in s:
-            if char == '(':
-                stack.append(char)
-            else:
-                if not stack:
-                    is_valid = False
-                    break
-                stack.pop()
-        
-        if is_valid and len(stack) == 0:
-            print(1)
+t = int(input())
+for _ in range(t):
+    s = input().strip()
+    stack = []
+    is_valid = True
+    
+    for char in s:
+        if char == '(':
+            stack.append(char)
         else:
-            print(0)
-
-if __name__ == "__main__":
-    main()
+            if not stack:
+                is_valid = False
+                break
+            stack.pop()
+    
+    if is_valid and len(stack) == 0:
+        print(1)
+    else:
+        print(0)
 ```
 
 ---
