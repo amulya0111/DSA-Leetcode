@@ -58,7 +58,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-18T16:44:35.832Z  
+**Submitted:** 2026-10-18T16:44:44.982Z  
 
 ```py
 def is_valid_parentheses(s):
