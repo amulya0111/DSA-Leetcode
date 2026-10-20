@@ -47,3 +47,10 @@
 *Last updated: 2026-10-20* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Linked List
+|  |
+| ------- |
+| [0083-remove-duplicates-from-sorted-list](https://github.com/amulya0111/DSA-Leetcode/tree/master/0083-remove-duplicates-from-sorted-list) |
+<!---LeetCode Topics End-->
