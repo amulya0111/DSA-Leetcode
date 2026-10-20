@@ -2,7 +2,7 @@
 
 # 🧠 Coding Solutions
 
-![Total Solved](https://img.shields.io/badge/Total_Solved-109-blue?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total_Solved-110-blue?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Streak-15_days-orange?style=for-the-badge)
 ![Last Synced](https://img.shields.io/badge/Last_Synced-20--10--2026-green?style=for-the-badge)
 
@@ -16,16 +16,16 @@
 
 | Difficulty | Solved |
 |:---:|:---:|
-| 🟢 Easy | **13** |
+| 🟢 Easy | **14** |
 | 🟡 Medium | **94** |
 | 🔴 Hard | **2** |
-| **Total** | **109** |
+| **Total** | **110** |
 
 ## 🛠️ Languages
 
 | Language | Solutions |
 |:---:|:---:|
-| Python | **109** |
+| Python | **110** |
 
 ## 📂 Repository Structure
 
@@ -47,10 +47,3 @@
 *Last updated: 2026-10-20* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Linked List
-|  |
-| ------- |
-| [0083-remove-duplicates-from-sorted-list](https://github.com/amulya0111/DSA-Leetcode/tree/master/0083-remove-duplicates-from-sorted-list) |
-<!---LeetCode Topics End-->
