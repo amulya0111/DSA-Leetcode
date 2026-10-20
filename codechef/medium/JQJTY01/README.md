@@ -73,7 +73,7 @@ Sum of minimums = `10000`
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-20T00:37:23.746Z  
+**Submitted:** 2026-10-20T00:38:36.639Z  
 
 ```py
 def calculateSumOfSubarrayMinimums(inputArray):
@@ -82,7 +82,8 @@ def calculateSumOfSubarrayMinimums(inputArray):
     stack=[]
     res=0
     
-    for i,x in enumerate(inputArray+[float('-inf')]):
+    for i,x in enumerate(inputArray+[float('-inf')]): #  i/index and x/value at index 
+        #inputArray + [float('-inf')]: We temporarily append negative infinity (-inf) to the end of the array. This acts as a "sentinel" value which forces the stack to pop and process all remaining elements at the end of the loop.
         while stack and inputArray[stack[-1]]>x:
             mid=stack.pop()
             left = mid - stack[-1] if stack else mid +1
