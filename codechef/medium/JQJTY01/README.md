@@ -73,7 +73,7 @@ Sum of minimums = `10000`
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-20T00:38:35.552Z  
+**Submitted:** 2026-10-20T00:41:18.734Z  
 
 ```py
 def calculateSumOfSubarrayMinimums(inputArray):
