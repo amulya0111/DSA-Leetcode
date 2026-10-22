@@ -2,7 +2,7 @@
 
 # 🧠 Coding Solutions
 
-![Total Solved](https://img.shields.io/badge/Total_Solved-123-blue?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total_Solved-124-blue?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Streak-17_days-orange?style=for-the-badge)
 ![Last Synced](https://img.shields.io/badge/Last_Synced-22--10--2026-green?style=for-the-badge)
 
@@ -18,14 +18,14 @@
 |:---:|:---:|
 | 🟢 Easy | **14** |
 | 🟡 Medium | **107** |
-| 🔴 Hard | **2** |
-| **Total** | **123** |
+| 🔴 Hard | **3** |
+| **Total** | **124** |
 
 ## 🛠️ Languages
 
 | Language | Solutions |
 |:---:|:---:|
-| Python | **123** |
+| Python | **124** |
 
 ## 📂 Repository Structure
 
@@ -47,22 +47,3 @@
 *Last updated: 2026-10-22* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-|  |
-| ------- |
-| [0032-longest-valid-parentheses](https://github.com/amulya0111/DSA-Leetcode/tree/master/0032-longest-valid-parentheses) |
-## Dynamic Programming
-|  |
-| ------- |
-| [0032-longest-valid-parentheses](https://github.com/amulya0111/DSA-Leetcode/tree/master/0032-longest-valid-parentheses) |
-## Stack
-|  |
-| ------- |
-| [0032-longest-valid-parentheses](https://github.com/amulya0111/DSA-Leetcode/tree/master/0032-longest-valid-parentheses) |
-## Bracket Sequences
-|  |
-| ------- |
-| [0032-longest-valid-parentheses](https://github.com/amulya0111/DSA-Leetcode/tree/master/0032-longest-valid-parentheses) |
-<!---LeetCode Topics End-->
