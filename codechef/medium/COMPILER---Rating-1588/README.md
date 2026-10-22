@@ -65,7 +65,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-22T01:50:15.299Z  
+**Submitted:** 2026-10-22T01:53:07.184Z  
 
 ```py
 # cook your dish here
@@ -73,15 +73,18 @@ t=int(input())
 for _ in range(t):
     stack=[]
     s=input()
-    count=0
-    for ch in s:
-        if ch=="<":
-            stack.append(ch)
+    ans=0
+    for i in range(len(s)):
+        if s[i]=="<":
+            stack.append(s[i])
         else:
             if stack:
                 stack.pop()
-                count+=2
-    print(count)
+            else:
+                break
+        if not stack:
+            ans=i+1
+    print(ans)
 ```
 
 ---
