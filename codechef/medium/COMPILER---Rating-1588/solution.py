@@ -3,12 +3,15 @@ t=int(input())
 for _ in range(t):
     stack=[]
     s=input()
-    count=0
-    for ch in s:
-        if ch=="<":
-            stack.append(ch)
+    ans=0
+    for i in range(len(s)):
+        if s[i]=="<":
+            stack.append(s[i])
         else:
             if stack:
                 stack.pop()
-                count+=2
-    print(count)
+            else:
+                break
+        if not stack:
+            ans=i+1
+    print(ans)
