@@ -47,3 +47,22 @@
 *Last updated: 2026-10-22* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## String
+|  |
+| ------- |
+| [0032-longest-valid-parentheses](https://github.com/amulya0111/DSA-Leetcode/tree/master/0032-longest-valid-parentheses) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0032-longest-valid-parentheses](https://github.com/amulya0111/DSA-Leetcode/tree/master/0032-longest-valid-parentheses) |
+## Stack
+|  |
+| ------- |
+| [0032-longest-valid-parentheses](https://github.com/amulya0111/DSA-Leetcode/tree/master/0032-longest-valid-parentheses) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0032-longest-valid-parentheses](https://github.com/amulya0111/DSA-Leetcode/tree/master/0032-longest-valid-parentheses) |
+<!---LeetCode Topics End-->
