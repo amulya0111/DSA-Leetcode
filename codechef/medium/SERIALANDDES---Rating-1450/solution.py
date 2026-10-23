@@ -26,7 +26,7 @@ def deserialize(arr):
             
 def serialize(root):
     if not root:
-        return ""
+        return []
     q=deque([root])
     ans=[]
     while q:
