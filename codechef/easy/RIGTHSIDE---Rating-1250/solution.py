@@ -14,9 +14,7 @@ class Solution:
                 return 
             if len(ds)==level:
                 ds.append(root.val)
-            if root.right:
-                view(root.right,level+1)
-            if root.left:
-                view(root.left,level+1)
+            view(root.right,level+1)
+            view(root.left,level+1)
         view(root,0)
         return ds
