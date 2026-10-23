@@ -69,7 +69,7 @@ From the right side you see 10, then 15, then 20.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-23T18:11:51.577Z  
+**Submitted:** 2026-10-23T18:11:56.218Z  
 
 ```py
 # class TreeNode:
