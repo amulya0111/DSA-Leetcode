@@ -69,7 +69,7 @@ From the right side you see 10, then 15, then 20.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-23T18:13:32.898Z  
+**Submitted:** 2026-10-23T18:14:10.944Z  
 
 ```py
 # class TreeNode:
@@ -88,10 +88,8 @@ class Solution:
                 return 
             if len(ds)==level:
                 ds.append(root.val)
-            if root.right:
-                view(root.right,level+1)
-            if root.left:
-                view(root.left,level+1)
+            view(root.right,level+1)
+            view(root.left,level+1)
         view(root,0)
         return ds
 ```
