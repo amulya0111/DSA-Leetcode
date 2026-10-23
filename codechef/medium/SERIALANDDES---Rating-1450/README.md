@@ -82,7 +82,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-23T15:34:48.068Z  
+**Submitted:** 2026-10-23T15:44:44.451Z  
 
 ```py
 # class TreeNode:
@@ -113,7 +113,7 @@ def deserialize(arr):
             
 def serialize(root):
     if not root:
-        return ""
+        return []
     q=deque([root])
     ans=[]
     while q:
