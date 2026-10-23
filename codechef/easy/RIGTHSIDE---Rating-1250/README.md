@@ -69,7 +69,7 @@ From the right side you see 10, then 15, then 20.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-23T18:12:57.899Z  
+**Submitted:** 2026-10-23T18:13:32.898Z  
 
 ```py
 # class TreeNode:
@@ -80,12 +80,12 @@ From the right side you see 10, then 15, then 20.
 
 class Solution:
     def rightSideView(self, root):
-        if not root:
-            return 
         # first of all make a levels counting ds with the data elements 
         ds=[]
         # create a function for recursive call 
         def view(root,level):
+            if not root:
+                return 
             if len(ds)==level:
                 ds.append(root.val)
             if root.right:
