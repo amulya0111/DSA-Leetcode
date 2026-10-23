@@ -7,7 +7,7 @@
 from collections import deque
 
 def deserialize(arr):
-    if not arr: 
+    if not arr or arr[0]==-1: 
         return None
     root=TreeNode(arr[0])
     q=deque([root])
