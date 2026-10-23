@@ -82,7 +82,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-23T15:34:06.263Z  
+**Submitted:** 2026-10-23T15:34:13.610Z  
 
 ```py
 # class TreeNode:
