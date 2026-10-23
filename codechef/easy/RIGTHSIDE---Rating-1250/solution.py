@@ -6,6 +6,8 @@
 
 class Solution:
     def rightSideView(self, root):
+        if not root:
+            return 
         # first of all make a levels counting ds with the data elements 
         ds=[]
         # create a function for recursive call 
