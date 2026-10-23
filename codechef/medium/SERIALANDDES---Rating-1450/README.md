@@ -82,7 +82,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-23T15:34:13.610Z  
+**Submitted:** 2026-10-23T15:34:48.068Z  
 
 ```py
 # class TreeNode:
@@ -94,7 +94,7 @@ Output
 from collections import deque
 
 def deserialize(arr):
-    if not arr: 
+    if not arr or arr[0]==-1: 
         return None
     root=TreeNode(arr[0])
     q=deque([root])
