@@ -46,7 +46,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-24T01:03:07.993Z  
+**Submitted:** 2026-10-24T01:03:24.981Z  
 
 ```py
 # class Node:
