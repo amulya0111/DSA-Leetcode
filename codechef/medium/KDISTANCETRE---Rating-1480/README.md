@@ -89,7 +89,7 @@ Nodes at distance 1 from node `2` are `1` (the parent).
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-24T01:35:40.508Z  
+**Submitted:** 2026-10-24T01:37:27.727Z  
 
 ```py
 # class TreeNode:
@@ -127,7 +127,7 @@ class Solution:
             for _ in range(n):
                 node=q2.popleft()
                 
-                for neighbour in (node.left,node.right,parent[node]):
+                for neighbour in (node.left,node.right,parent.get(node)):
                     if neighbour and neighbour not in visited:
                         visited.add(neighbour)
                         q2.append(neighbour)
