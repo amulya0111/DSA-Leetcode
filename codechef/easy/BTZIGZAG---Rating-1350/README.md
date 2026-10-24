@@ -46,7 +46,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-24T01:03:24.981Z  
+**Submitted:** 2026-10-24T01:03:51.602Z  
 
 ```py
 # class Node:
@@ -57,7 +57,7 @@ Output
 from collections import deque 
 
 class Solution:
-    def zigzag_traversal(self, root):
+    def zigzagTraversal(self, root):
         if not root:
             return
         q=deque([root])
