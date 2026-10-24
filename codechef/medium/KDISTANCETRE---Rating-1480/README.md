@@ -89,7 +89,7 @@ Nodes at distance 1 from node `2` are `1` (the parent).
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-24T01:35:36.271Z  
+**Submitted:** 2026-10-24T01:35:40.508Z  
 
 ```py
 # class TreeNode:
