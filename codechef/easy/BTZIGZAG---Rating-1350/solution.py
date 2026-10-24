@@ -6,7 +6,7 @@
 from collections import deque 
 
 class Solution:
-    def zigzag_traversal(self, root):
+    def zigzagTraversal(self, root):
         if not root:
             return
         q=deque([root])
