@@ -48,3 +48,18 @@
 *Last updated: 2026-10-27* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Hash Table
+|  |
+| ------- |
+| [0828-count-unique-characters-of-all-substrings-of-a-given-string](https://github.com/amulya0111/DSA-Leetcode/tree/master/0828-count-unique-characters-of-all-substrings-of-a-given-string) |
+## String
+|  |
+| ------- |
+| [0828-count-unique-characters-of-all-substrings-of-a-given-string](https://github.com/amulya0111/DSA-Leetcode/tree/master/0828-count-unique-characters-of-all-substrings-of-a-given-string) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0828-count-unique-characters-of-all-substrings-of-a-given-string](https://github.com/amulya0111/DSA-Leetcode/tree/master/0828-count-unique-characters-of-all-substrings-of-a-given-string) |
+<!---LeetCode Topics End-->
