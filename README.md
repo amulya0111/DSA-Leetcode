@@ -48,3 +48,22 @@
 *Last updated: 2026-10-30* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0416-partition-equal-subset-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0416-partition-equal-subset-sum) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0416-partition-equal-subset-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0416-partition-equal-subset-sum) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0416-partition-equal-subset-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0416-partition-equal-subset-sum) |
+## 0-1 Knapsack
+|  |
+| ------- |
+| [0416-partition-equal-subset-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0416-partition-equal-subset-sum) |
+<!---LeetCode Topics End-->
