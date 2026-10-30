@@ -2,7 +2,7 @@
 
 # 🧠 Coding Solutions
 
-![Total Solved](https://img.shields.io/badge/Total_Solved-162-blue?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total_Solved-163-blue?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Streak-2_days-orange?style=for-the-badge)
 ![Last Synced](https://img.shields.io/badge/Last_Synced-30--10--2026-green?style=for-the-badge)
 
@@ -17,15 +17,15 @@
 | Difficulty | Solved |
 |:---:|:---:|
 | 🟢 Easy | **31** |
-| 🟡 Medium | **124** |
+| 🟡 Medium | **125** |
 | 🔴 Hard | **7** |
-| **Total** | **162** |
+| **Total** | **163** |
 
 ## 🛠️ Languages
 
 | Language | Solutions |
 |:---:|:---:|
-| Python | **161** |
+| Python | **162** |
 | c_cpp | **1** |
 
 ## 📂 Repository Structure
@@ -48,22 +48,3 @@
 *Last updated: 2026-10-30* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0416-partition-equal-subset-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0416-partition-equal-subset-sum) |
-## Dynamic Programming
-|  |
-| ------- |
-| [0416-partition-equal-subset-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0416-partition-equal-subset-sum) |
-## Knapsack Problem
-|  |
-| ------- |
-| [0416-partition-equal-subset-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0416-partition-equal-subset-sum) |
-## 0-1 Knapsack
-|  |
-| ------- |
-| [0416-partition-equal-subset-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0416-partition-equal-subset-sum) |
-<!---LeetCode Topics End-->
