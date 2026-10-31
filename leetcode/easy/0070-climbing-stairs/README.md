@@ -43,8 +43,8 @@ Explanation: There are three ways to climb to the top.
 
 **Language:** Python  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 12.3 MB (beats 78.06%)  
-**Submitted:** 2026-10-31T07:08:16.943Z  
+**Memory:** 12.2 MB (beats 91.18%)  
+**Submitted:** 2026-10-31T07:42:39.136Z  
 
 ```py
 class Solution(object):
@@ -54,16 +54,12 @@ class Solution(object):
         :rtype: int
         """
         dp=[-1]*(n+1)
-        def solve(n):
-            if n==0:
-                return 1
-            if n==1:
-                return 1
-            if dp[n]!=-1:
-                return dp[n]
-            dp[n]= solve(n-1)+solve(n-2)
-            return dp[n]
-        return solve(n)
+        dp[0]=1
+        dp[1]=1
+            
+        for i in range(2,len(dp)):
+            dp[i]= dp[i-1]+dp[i-2]
+        return dp[n]
 ```
 
 ---
