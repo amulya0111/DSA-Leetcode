@@ -60,7 +60,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-02T18:20:04.215Z  
+**Submitted:** 2026-11-02T18:23:01.878Z  
 
 ```py
 def fib(n):
@@ -69,8 +69,12 @@ def fib(n):
         return 0
     if n==2:
         return 1
-    n= fib(n-1)+fib(n-2)
-    return n
+    dp=[0]*n
+    dp[0]=0
+    dp[1]=1
+    for i in range(2,n):
+        dp[i]=dp[i-1]+dp[i-2]
+    return dp[n-1]
 n = int(input())
 print(fib(n))
 ```
