@@ -48,3 +48,14 @@
 *Last updated: 2026-11-01* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0198-house-robber](https://github.com/amulya0111/DSA-Leetcode/tree/master/0198-house-robber) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0198-house-robber](https://github.com/amulya0111/DSA-Leetcode/tree/master/0198-house-robber) |
+<!---LeetCode Topics End-->
