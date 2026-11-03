@@ -41,8 +41,8 @@ Total amount you can rob = 2 + 9 + 1 = 12.
 
 **Language:** Python  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 12.2 MB (beats 75.88%)  
-**Submitted:** 2026-11-02T18:13:57.397Z  
+**Memory:** 12.2 MB (beats 75.08%)  
+**Submitted:** 2026-11-03T17:22:50.737Z  
 
 ```py
 class Solution(object):
@@ -53,8 +53,8 @@ class Solution(object):
         dp[0]=nums[0]
         dp[1]=max(nums[0],nums[1]) #As we can take farther value 0 for 2nd index 
         for i in range(2,len(nums)):
-            pick=max(dp[i-2]+nums[i],nums[i])
-            notpick=dp[i-1]
+            pick=dp[i-2]+nums[i]
+            notpick=dp[i-1] #same idea here 
             dp[i]=max(pick,notpick)
         return dp[len(nums)-1]
 ```
