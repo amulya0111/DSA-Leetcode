@@ -83,7 +83,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-03T17:39:05.536Z  
+**Submitted:** 2026-11-03T17:39:37.321Z  
 
 ```py
 def calculateMaxRobAmount(houseMoneyList):
