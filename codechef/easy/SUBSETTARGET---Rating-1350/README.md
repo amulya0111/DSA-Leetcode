@@ -72,7 +72,7 @@ No subset of the array adds up to 4.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-05T15:56:02.191Z  
+**Submitted:** 2026-11-05T15:57:54.110Z  
 
 ```py
 class Solution:
@@ -82,8 +82,8 @@ class Solution:
         dp[0]=True
         for i in range(n):
             for j in range(target,arr[i]-1,-1):
-                if dp[s-val]:
-                    dp[s]=True
+                dp[j]=dp[j] or dp[j-arr[i]]
+        return dp[target]
         # def find(ind,arr,target):
         #     if ind==0:
         #         if arr[ind]==target:
