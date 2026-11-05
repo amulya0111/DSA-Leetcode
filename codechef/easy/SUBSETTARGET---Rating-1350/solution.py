@@ -5,8 +5,8 @@ class Solution:
         dp[0]=True
         for i in range(n):
             for j in range(target,arr[i]-1,-1):
-                if dp[s-val]:
-                    dp[s]=True
+                dp[j]=dp[j] or dp[j-arr[i]]
+        return dp[target]
         # def find(ind,arr,target):
         #     if ind==0:
         #         if arr[ind]==target:
