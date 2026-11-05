@@ -1,11 +1,12 @@
 class Solution:
     def isSubsetSum(self, n, arr, target):
         # write your code here
-        dp=[False]*n
+        dp=[False]*(target+1)
+        dp[0]=True
         for i in range(n):
-            pick=dp[ind]+dp[ind-1]
-            notpick=dp[ind-1]
-            dp=pick or notpick
+            for j in range(target,arr[i]-1,-1):
+                if dp[s-val]:
+                    dp[s]=True
         # def find(ind,arr,target):
         #     if ind==0:
         #         if arr[ind]==target:
