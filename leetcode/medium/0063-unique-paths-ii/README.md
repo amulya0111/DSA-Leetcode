@@ -46,9 +46,9 @@ Output: 1
 ## Solution
 
 **Language:** Python  
-**Runtime:** 1 ms (beats 44.27%)  
+**Runtime:** 0 ms (beats 100.00%)  
 **Memory:** 12.1 MB (beats 88.58%)  
-**Submitted:** 2026-11-08T03:31:04.270Z  
+**Submitted:** 2026-11-08T17:02:56.187Z  
 
 ```py
 class Solution(object):
@@ -71,22 +71,38 @@ class Solution(object):
         # return find(0,0,m,n,obstacleGrid)
 
         # TABULATION:(TOP DOWN)
+        # if obstacleGrid[m-1][n-1]==1 or obstacleGrid[0][0]==1:
+        #     return 0
+        # dp=[[0]*n for i in range(m)]
+        # for i in range(m-1,-1,-1):
+        #     for j in range(n-1,-1,-1):
+        #         if i==m-1 and j==n-1:
+        #             dp[m-1][n-1]=1
+        #             continue
+        #         if obstacleGrid[i][j]==1:
+        #             dp[i][j]=0
+        #             continue 
+        #         right=dp[i][j+1] if j+1 < n else 0
+        #         down = dp[i+1][j] if i+1 < m else 0
+        #         dp[i][j]=right+down
+        # return dp[0][0]           
+        
+        # SINGLE ARRAY OPTIMIZATION
+        dp=[0]*n
         if obstacleGrid[m-1][n-1]==1 or obstacleGrid[0][0]==1:
             return 0
-        dp=[[0]*n for i in range(m)]
-        dp[m-1][n-1]=1
         for i in range(m-1,-1,-1):
             for j in range(n-1,-1,-1):
                 if i==m-1 and j==n-1:
+                    dp[j]=1
                     continue
                 if obstacleGrid[i][j]==1:
-                    dp[i][j]=0
-                    continue 
-                right=dp[i][j+1] if j+1 < n else 0
-                down = dp[i+1][j] if i+1 < m else 0
-                dp[i][j]=right+down
-        return dp[0][0]           
-
+                    dp[j]=0
+                    continue
+                right=dp[j+1] if j+1<n else 0
+                down= dp[j] if i+1<m else 0
+                dp[j]=right+down
+        return dp[0]
 ```
 
 ---
