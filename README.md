@@ -48,3 +48,18 @@
 *Last updated: 2026-11-08* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0063-unique-paths-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0063-unique-paths-ii) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0063-unique-paths-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0063-unique-paths-ii) |
+## Matrix
+|  |
+| ------- |
+| [0063-unique-paths-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0063-unique-paths-ii) |
+<!---LeetCode Topics End-->
