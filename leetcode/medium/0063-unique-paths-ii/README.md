@@ -46,9 +46,9 @@ Output: 1
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 12.2 MB  
-**Submitted:** 2026-11-07T03:02:07.693Z  
+**Runtime:** 1 ms (beats 44.27%)  
+**Memory:** 12.1 MB (beats 88.58%)  
+**Submitted:** 2026-11-08T03:31:04.270Z  
 
 ```py
 class Solution(object):
@@ -73,11 +73,17 @@ class Solution(object):
         # TABULATION:(TOP DOWN)
         if obstacleGrid[m-1][n-1]==1 or obstacleGrid[0][0]==1:
             return 0
-        dp=[[1]*n for i in range(m)]
-        for i in range(m-2,-1,-1):
-            for j in range(n-2,-1,-1):
-                right=dp[i][j+1] if obstacleGrid[i][j+1]==0 else 0
-                down = dp[i+1][j] if obstacleGrid[i+1][j]==0 else 0
+        dp=[[0]*n for i in range(m)]
+        dp[m-1][n-1]=1
+        for i in range(m-1,-1,-1):
+            for j in range(n-1,-1,-1):
+                if i==m-1 and j==n-1:
+                    continue
+                if obstacleGrid[i][j]==1:
+                    dp[i][j]=0
+                    continue 
+                right=dp[i][j+1] if j+1 < n else 0
+                down = dp[i+1][j] if i+1 < m else 0
                 dp[i][j]=right+down
         return dp[0][0]           
 
