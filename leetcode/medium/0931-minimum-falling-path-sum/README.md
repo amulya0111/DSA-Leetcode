@@ -39,9 +39,9 @@ Explanation: The falling path with a minimum sum is shown.
 ## Solution
 
 **Language:** Python  
-**Runtime:** 35 ms (beats 36.08%)  
-**Memory:** 12.5 MB (beats 98.42%)  
-**Submitted:** 2026-11-09T06:40:20.451Z  
+**Runtime:** 30 ms (beats 45.89%)  
+**Memory:** 12.7 MB (beats 95.89%)  
+**Submitted:** 2026-11-09T06:52:17.659Z  
 
 ```py
 class Solution(object):
@@ -63,17 +63,31 @@ class Solution(object):
         # return find(0,0,m,n)
 
         # TABULATION:(TOPDOWN)
-        dp=[[0]*n for _ in range(m)]
+        # dp=[[0]*n for _ in range(m)]
+        # for i in range(m-1,-1,-1):
+        #     for j in range(n-1,-1,-1):
+        #         if i==m-1:
+        #             dp[i][j]=matrix[i][j]
+        #             continue
+        #         down=matrix[i][j]+(dp[i+1][j] if i+1<m else float('inf'))
+        #         dialeft=matrix[i][j]+(dp[i+1][j-1] if i+1<m and j-1>=0 else float('inf'))
+        #         diaright=matrix[i][j]+(dp[i+1][j+1] if i+1<m and j+1<n else float('inf'))
+        #         dp[i][j]=min(down,dialeft,diaright)
+        # return min(dp[0][:])
+
+        # SINGLE-ARRAY:(BOTTOMUP)
+        dp=[0]*n
         for i in range(m-1,-1,-1):
-            for j in range(n-1,-1,-1):
+            prev=dp[:]
+            for j in range(n-1,-1,-1):                
                 if i==m-1:
-                    dp[i][j]=matrix[i][j]
+                    dp[j]=matrix[i][j]
                     continue
-                down=matrix[i][j]+(dp[i+1][j] if i+1<m else float('inf'))
-                dialeft=matrix[i][j]+(dp[i+1][j-1] if i+1<m and j-1>=0 else float('inf'))
-                diaright=matrix[i][j]+(dp[i+1][j+1] if i+1<m and j+1<n else float('inf'))
-                dp[i][j]=min(down,dialeft,diaright)
-        return min(dp[0][:])
+                down=matrix[i][j]+(prev[j] if i+1<m else float('inf'))
+                dialeft=matrix[i][j]+(prev[j-1] if i+1<m and j-1>=0 else float('inf'))
+                diaright=matrix[i][j]+(prev[j+1] if i+1<m and j+1<n else float('inf'))
+                dp[j]=min(down,dialeft,diaright)
+        return min(dp)
 ```
 
 ---
