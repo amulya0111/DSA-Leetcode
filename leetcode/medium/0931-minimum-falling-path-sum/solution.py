@@ -33,7 +33,7 @@ class Solution(object):
                 if i==m-1:
                     dp[j]=matrix[i][j]
                     continue
-                down=matrix[i][j]+prev[j]
+                down=matrix[i][j]+(prev[j] if i+1<m else float('inf'))
                 dialeft=matrix[i][j]+(prev[j-1] if j-1>=0 else float('inf'))
                 diaright=matrix[i][j]+(prev[j+1] if j+1<n else float('inf'))
                 dp[j]=min(down,dialeft,diaright)
