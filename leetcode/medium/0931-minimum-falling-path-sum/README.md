@@ -39,17 +39,13 @@ Explanation: The falling path with a minimum sum is shown.
 ## Solution
 
 **Language:** Python  
-**Runtime:** 30 ms (beats 45.89%)  
-**Memory:** 12.7 MB (beats 95.89%)  
-**Submitted:** 2026-11-09T06:52:17.659Z  
+**Runtime:** 0 ms  
+**Memory:** 12.4 MB  
+**Submitted:** 2026-11-09T19:32:17.304Z  
 
 ```py
 class Solution(object):
     def minFallingPathSum(self, matrix):
-        """
-        :type matrix: List[List[int]]
-        :rtype: int
-        """
         m=len(matrix)
         n=len(matrix[0])
         # RECURSIVE:(BOTTOMUP)
@@ -57,7 +53,7 @@ class Solution(object):
         #     if x==m-1:
         #         return matrix[x][y]
         #     down=matrix[x][y]+find(x+1,y,m,n)
-        #     dialeft=matrix[x][y]+(find(x+1,y-1,m,n) if y-1<0 else float('inf'))
+        #     dialeft=matrix[x][y]+(find(x+1,y-1,m,n) if y-1>=0 else float('inf'))
         #     diaright=matrix[x][y]+(find(x+1,y+1,m,n) if y+1<n else float('inf'))
         #     return min(down,dialeft,diaright)
         # return find(0,0,m,n)
@@ -83,11 +79,13 @@ class Solution(object):
                 if i==m-1:
                     dp[j]=matrix[i][j]
                     continue
-                down=matrix[i][j]+(prev[j] if i+1<m else float('inf'))
-                dialeft=matrix[i][j]+(prev[j-1] if i+1<m and j-1>=0 else float('inf'))
-                diaright=matrix[i][j]+(prev[j+1] if i+1<m and j+1<n else float('inf'))
+                down=matrix[i][j]+prev[j]
+                dialeft=matrix[i][j]+(prev[j-1] if j-1>=0 else float('inf'))
+                diaright=matrix[i][j]+(prev[j+1] if j+1<n else float('inf'))
                 dp[j]=min(down,dialeft,diaright)
         return min(dp)
+        # we use prev as like before we dont need right or down(in which only down should be previous)
+        # prev helps us attain prev of dialeft and diaright as well (the right was of same column,dialeft and diaright are of prev columns only )
 ```
 
 ---
