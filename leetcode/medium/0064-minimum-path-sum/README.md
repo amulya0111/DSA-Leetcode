@@ -39,9 +39,9 @@ Output: 12
 ## Solution
 
 **Language:** Python  
-**Runtime:** 27 ms (beats 11.84%)  
-**Memory:** 14.2 MB (beats 16.97%)  
-**Submitted:** 2026-11-09T05:27:12.650Z  
+**Runtime:** 20 ms (beats 18.11%)  
+**Memory:** 12.8 MB (beats 90.58%)  
+**Submitted:** 2026-11-09T05:37:31.115Z  
 
 ```py
 class Solution(object):
@@ -64,17 +64,29 @@ class Solution(object):
         # return find(0,0,m,n)
 
         # TABULATION:(TOPDOWN)
-        dp=[[0]*n for i in range(m)]
+        # dp=[[0]*n for i in range(m)]
+        # for i in range(m-1,-1,-1):
+        #     for j in range(n-1,-1,-1):
+        #         if i==m-1 and j==n-1:
+        #             dp[i][j]=grid[i][j]
+        #             # it doesnt have right or down so continue
+        #             continue
+        #         right=grid[i][j]+(dp[i][j+1] if j+1<n else float('inf'))
+        #         down=grid[i][j]+(dp[i+1][j]  if i+1<m else float('inf'))
+        #         dp[i][j]=min(right,down)
+        # return dp[0][0]
+
+        # SINGLE-ARRAY:(TOP DOWN)
+        dp=[0]*n
         for i in range(m-1,-1,-1):
             for j in range(n-1,-1,-1):
                 if i==m-1 and j==n-1:
-                    dp[i][j]=grid[i][j]
-                    # it doesnt have right or down so continue
+                    dp[j]=grid[i][j]
                     continue
-                right=grid[i][j]+(dp[i][j+1] if j+1<n else float('inf'))
-                down=grid[i][j]+(dp[i+1][j]  if i+1<m else float('inf'))
-                dp[i][j]=min(right,down)
-        return dp[0][0]
+                right=grid[i][j]+(dp[j+1] if j+1 < n else float('inf'))
+                down=grid[i][j]+(dp[j] if i+1 < m else float('inf'))
+                dp[j]=min(right,down)
+        return dp[0]
 ```
 
 ---
