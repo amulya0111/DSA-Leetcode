@@ -81,7 +81,7 @@ false
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-09T14:08:35.837Z  
+**Submitted:** 2026-11-09T14:53:55.724Z  
 
 ```py
 def canPartitionEqualSubset(numbers):
