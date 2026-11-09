@@ -39,9 +39,9 @@ Output: 12
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 12.3 MB  
-**Submitted:** 2026-11-09T05:27:06.626Z  
+**Runtime:** 27 ms (beats 11.84%)  
+**Memory:** 14.2 MB (beats 16.97%)  
+**Submitted:** 2026-11-09T05:27:12.650Z  
 
 ```py
 class Solution(object):
