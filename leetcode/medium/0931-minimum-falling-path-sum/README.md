@@ -39,9 +39,9 @@ Explanation: The falling path with a minimum sum is shown.
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 12.3 MB  
-**Submitted:** 2026-11-09T06:35:33.386Z  
+**Runtime:** 35 ms (beats 36.08%)  
+**Memory:** 12.5 MB (beats 98.42%)  
+**Submitted:** 2026-11-09T06:40:20.451Z  
 
 ```py
 class Solution(object):
@@ -70,10 +70,10 @@ class Solution(object):
                     dp[i][j]=matrix[i][j]
                     continue
                 down=matrix[i][j]+(dp[i+1][j] if i+1<m else float('inf'))
-                dialeft=matrix[i][j]+(dp[i+1][j-1] if j-1>0 else float('inf'))
-                diaright=matrix[i][j]+(dp[i+1][j+1] if j+1<n else float('inf'))
+                dialeft=matrix[i][j]+(dp[i+1][j-1] if i+1<m and j-1>=0 else float('inf'))
+                diaright=matrix[i][j]+(dp[i+1][j+1] if i+1<m and j+1<n else float('inf'))
                 dp[i][j]=min(down,dialeft,diaright)
-        return dp[0][0]
+        return min(dp[0][:])
 ```
 
 ---
