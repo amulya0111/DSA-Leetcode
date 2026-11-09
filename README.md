@@ -48,3 +48,18 @@
 *Last updated: 2026-11-09* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0931-minimum-falling-path-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0931-minimum-falling-path-sum) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0931-minimum-falling-path-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0931-minimum-falling-path-sum) |
+## Matrix
+|  |
+| ------- |
+| [0931-minimum-falling-path-sum](https://github.com/amulya0111/DSA-Leetcode/tree/master/0931-minimum-falling-path-sum) |
+<!---LeetCode Topics End-->
