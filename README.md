@@ -2,7 +2,7 @@
 
 # 🧠 Coding Solutions
 
-![Total Solved](https://img.shields.io/badge/Total_Solved-207-blue?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total_Solved-208-blue?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Streak-4_days-orange?style=for-the-badge)
 ![Last Synced](https://img.shields.io/badge/Last_Synced-10--11--2026-green?style=for-the-badge)
 
@@ -17,15 +17,15 @@
 | Difficulty | Solved |
 |:---:|:---:|
 | 🟢 Easy | **46** |
-| 🟡 Medium | **154** |
+| 🟡 Medium | **155** |
 | 🔴 Hard | **7** |
-| **Total** | **207** |
+| **Total** | **208** |
 
 ## 🛠️ Languages
 
 | Language | Solutions |
 |:---:|:---:|
-| Python | **206** |
+| Python | **207** |
 | c_cpp | **1** |
 
 ## 📂 Repository Structure
@@ -48,14 +48,3 @@
 *Last updated: 2026-11-10* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [3693-climbing-stairs-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/3693-climbing-stairs-ii) |
-## Dynamic Programming
-|  |
-| ------- |
-| [3693-climbing-stairs-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/3693-climbing-stairs-ii) |
-<!---LeetCode Topics End-->
