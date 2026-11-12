@@ -55,8 +55,8 @@ Explanation: There is no way to make a positive profit, so we never buy the stoc
 
 **Language:** Python  
 **Runtime:** 62 ms (beats 5.05%)  
-**Memory:** 20.3 MB (beats 6.94%)  
-**Submitted:** 2026-11-11T05:17:47.775Z  
+**Memory:** 20.6 MB (beats 6.94%)  
+**Submitted:** 2026-11-11T05:18:07.605Z  
 
 ```py
 class Solution(object):
@@ -112,8 +112,8 @@ class Solution(object):
         # return maxprofit(0,1,prices,dp)
         # TABULATION:
         n=len(prices)
-        dp=[[-1]*(2) for i in range(n+1)]
-        dp[n][0]=dp[n][1]=0
+        dp=[[0]*(2) for i in range(n+1)]
+        # dp[n][0]=dp[n][1]=0
         for i in range(len(prices)-1,-1,-1):
             for canbuy in range(2):
                 if canbuy==1:
