@@ -51,8 +51,8 @@ class Solution(object):
         # return maxprofit(0,1,prices,dp)
         # TABULATION:
         n=len(prices)
-        dp=[[-1]*(2) for i in range(n+1)]
-        dp[n][0]=dp[n][1]=0
+        dp=[[0]*(2) for i in range(n+1)]
+        # dp[n][0]=dp[n][1]=0
         for i in range(len(prices)-1,-1,-1):
             for canbuy in range(2):
                 if canbuy==1:
