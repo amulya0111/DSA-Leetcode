@@ -11,3 +11,4 @@ def calculate_max_profit(stockPrices):
         buy2=max(buy2,sell1-Price)
         sell2=max(sell2,buy2+Price)
     return sell2
+    # 
