@@ -58,7 +58,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-10T07:04:37.576Z  
+**Submitted:** 2026-11-12T18:26:24.450Z  
 
 ```py
 def calculate_max_profit(stockPrices):
@@ -74,6 +74,7 @@ def calculate_max_profit(stockPrices):
         buy2=max(buy2,sell1-Price)
         sell2=max(sell2,buy2+Price)
     return sell2
+    # 
 ```
 
 ---
