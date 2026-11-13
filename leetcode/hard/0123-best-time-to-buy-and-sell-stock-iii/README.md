@@ -52,9 +52,9 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 ## Solution
 
 **Language:** Python  
-**Runtime:** 226 ms (beats 51.12%)  
-**Memory:** 20.6 MB (beats 92.44%)  
-**Submitted:** 2026-11-12T18:16:04.364Z  
+**Runtime:** 1556 ms (beats 8.48%)  
+**Memory:** 64.9 MB (beats 7.03%)  
+**Submitted:** 2026-11-13T11:29:10.731Z  
 
 ```py
 class Solution(object):
@@ -77,18 +77,35 @@ class Solution(object):
         # return find(0,1,2)
 
         # TABULATION:(TOPDOWN)
-
+        n=len(prices)
+        dp=[[[0]*3 for i in range(2)] for j in range(n+1)]
+        for i in range(n-1,-1,-1):
+            for canbuy in range(2):
+                for cap in range(1,3):
+                    if canbuy==1:
+                        buy=-prices[i]+dp[i+1][0][cap]
+                        notbuy=0+dp[i+1][1][cap]
+                        pick=buy
+                        notpick=notbuy
+                    else:
+                        sell=prices[i]+dp[i+1][1][cap-1]
+                        notsell=0+dp[i+1][0][cap]
+                        pick=sell
+                        notpick=notsell
+                    dp[i][canbuy][cap]=max(pick,notpick)
+        return dp[0][1][2]
+                
             
-        buy1 = float('-inf')
-        sell1 = 0
-        buy2 = float('-inf')
-        sell2 = 0
-        for price in prices:
-            buy1 = max(buy1, -price)
-            sell1 = max(sell1, buy1 + price)
-            buy2 = max(buy2, sell1 - price)
-            sell2 = max(sell2, buy2 + price)
-        return sell2
+        # buy1 = float('-inf')
+        # sell1 = 0
+        # buy2 = float('-inf')
+        # sell2 = 0
+        # for price in prices:
+        #     buy1 = max(buy1, -price)
+        #     sell1 = max(sell1, buy1 + price)
+        #     buy2 = max(buy2, sell1 - price)
+        #     sell2 = max(sell2, buy2 + price)
+        # return sell2
 ```
 
 ---
