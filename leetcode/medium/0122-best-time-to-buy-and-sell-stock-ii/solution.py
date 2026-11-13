@@ -49,29 +49,48 @@ class Solution(object):
         #     dp[i][canbuy]=max(pick,notpick)
         #     return dp[i][canbuy]
         # return maxprofit(0,1,prices,dp)
-        # TABULATION:
-        n=len(prices)
-        dp=[[0]*(2) for i in range(n+1)]
-        # dp[n][0]=dp[n][1]=0
+        # # TABULATION:
+        # n=len(prices)
+        # dp=[[0]*(2) for i in range(n+1)]
+        # # dp[n][0]=dp[n][1]=0
+        # for i in range(len(prices)-1,-1,-1):
+        #     for canbuy in range(2):
+        #         if canbuy==1:
+        #         # can buy
+        #         # for i==0 there will be special cases 
+                
+        #             buy=-prices[i]+dp[i+1][0]                                 
+        #             notbuy=0+dp[i+1][1]
+        #             pick=buy
+        #             notpick=notbuy
+        #         else:
+        #             # canbuy==0? > sell
+        #             sell=prices[i]+dp[i+1][1]
+        #             notsell=0+dp[i+1][0]
+        #             pick=sell
+        #             notpick=notsell
+        #         dp[i][canbuy]=max(pick,notpick)
+        # return dp[0][1]
+        # SINGLE-ARRAY
+        dp=[0]*2
         for i in range(len(prices)-1,-1,-1):
             for canbuy in range(2):
                 if canbuy==1:
                 # can buy
                 # for i==0 there will be special cases 
                 
-                    buy=-prices[i]+dp[i+1][0]                                 
-                    notbuy=0+dp[i+1][1]
+                    buy=-prices[i]+dp[0]                                 
+                    notbuy=0+dp[1]
                     pick=buy
                     notpick=notbuy
                 else:
                     # canbuy==0? > sell
-                    sell=prices[i]+dp[i+1][1]
-                    notsell=0+dp[i+1][0]
+                    sell=prices[i]+dp[1]
+                    notsell=0+dp[0]
                     pick=sell
                     notpick=notsell
-                dp[i][canbuy]=max(pick,notpick)
-        return dp[0][1]
-        # SINGLE-ARRAY
+                dp[canbuy]=max(pick,notpick)
+        return dp[1]
         # profit=0
         # for i in range(1,len(prices)):
         #     profit += max(0, prices[i] - prices[i-1])
