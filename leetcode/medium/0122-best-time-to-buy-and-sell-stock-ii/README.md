@@ -54,9 +54,9 @@ Explanation: There is no way to make a positive profit, so we never buy the stoc
 ## Solution
 
 **Language:** Python  
-**Runtime:** 62 ms (beats 5.05%)  
-**Memory:** 20.6 MB (beats 6.94%)  
-**Submitted:** 2026-11-11T05:18:07.605Z  
+**Runtime:** 19 ms (beats 5.41%)  
+**Memory:** 16.8 MB (beats 6.87%)  
+**Submitted:** 2026-11-13T11:04:51.471Z  
 
 ```py
 class Solution(object):
@@ -110,33 +110,52 @@ class Solution(object):
         #     dp[i][canbuy]=max(pick,notpick)
         #     return dp[i][canbuy]
         # return maxprofit(0,1,prices,dp)
-        # TABULATION:
-        n=len(prices)
-        dp=[[0]*(2) for i in range(n+1)]
-        # dp[n][0]=dp[n][1]=0
-        for i in range(len(prices)-1,-1,-1):
-            for canbuy in range(2):
-                if canbuy==1:
-                # can buy
-                # for i==0 there will be special cases 
+        # # TABULATION:
+        # n=len(prices)
+        # dp=[[0]*(2) for i in range(n+1)]
+        # # dp[n][0]=dp[n][1]=0
+        # for i in range(len(prices)-1,-1,-1):
+        #     for canbuy in range(2):
+        #         if canbuy==1:
+        #         # can buy
+        #         # for i==0 there will be special cases 
                 
-                    buy=-prices[i]+dp[i+1][0]                                 
-                    notbuy=0+dp[i+1][1]
-                    pick=buy
-                    notpick=notbuy
-                else:
-                    # canbuy==0? > sell
-                    sell=prices[i]+dp[i+1][1]
-                    notsell=0+dp[i+1][0]
-                    pick=sell
-                    notpick=notsell
-                dp[i][canbuy]=max(pick,notpick)
-        return dp[0][1]
+        #             buy=-prices[i]+dp[i+1][0]                                 
+        #             notbuy=0+dp[i+1][1]
+        #             pick=buy
+        #             notpick=notbuy
+        #         else:
+        #             # canbuy==0? > sell
+        #             sell=prices[i]+dp[i+1][1]
+        #             notsell=0+dp[i+1][0]
+        #             pick=sell
+        #             notpick=notsell
+        #         dp[i][canbuy]=max(pick,notpick)
+        # return dp[0][1]
         # SINGLE-ARRAY
-        # profit=0
-        # for i in range(1,len(prices)):
-        #     profit += max(0, prices[i] - prices[i-1])
-        # return profit
+        # dp=[0]*2
+        # for i in range(len(prices)-1,-1,-1):
+        #     for canbuy in range(2):
+        #         if canbuy==1:
+        #         # can buy
+        #         # for i==0 there will be special cases 
+                
+        #             buy=-prices[i]+dp[0]                                 
+        #             notbuy=0+dp[1]
+        #             pick=buy
+        #             notpick=notbuy
+        #         else:
+        #             # canbuy==0? > sell
+        #             sell=prices[i]+dp[1]
+        #             notsell=0+dp[0]
+        #             pick=sell
+        #             notpick=notsell
+        #         dp[canbuy]=max(pick,notpick)
+        # return dp[1]
+        profit=0
+        for i in range(1,len(prices)):
+            profit += max(0, prices[i] - prices[i-1])
+        return profit
 ```
 
 ---
