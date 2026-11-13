@@ -48,3 +48,18 @@
 *Last updated: 2026-11-12* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+## Greedy
+|  |
+| ------- |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/amulya0111/DSA-Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+<!---LeetCode Topics End-->
