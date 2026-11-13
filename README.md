@@ -2,7 +2,7 @@
 
 # 🧠 Coding Solutions
 
-![Total Solved](https://img.shields.io/badge/Total_Solved-217-blue?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total_Solved-218-blue?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Streak-2_days-orange?style=for-the-badge)
 ![Last Synced](https://img.shields.io/badge/Last_Synced-13--11--2026-green?style=for-the-badge)
 
@@ -18,14 +18,14 @@
 |:---:|:---:|
 | 🟢 Easy | **46** |
 | 🟡 Medium | **160** |
-| 🔴 Hard | **11** |
-| **Total** | **217** |
+| 🔴 Hard | **12** |
+| **Total** | **218** |
 
 ## 🛠️ Languages
 
 | Language | Solutions |
 |:---:|:---:|
-| Python | **216** |
+| Python | **217** |
 | c_cpp | **1** |
 
 ## 📂 Repository Structure
@@ -48,14 +48,3 @@
 *Last updated: 2026-11-13* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/amulya0111/DSA-Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
-## Dynamic Programming
-|  |
-| ------- |
-| [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/amulya0111/DSA-Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
-<!---LeetCode Topics End-->
