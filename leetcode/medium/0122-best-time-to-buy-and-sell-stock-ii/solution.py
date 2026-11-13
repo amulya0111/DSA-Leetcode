@@ -72,26 +72,26 @@ class Solution(object):
         #         dp[i][canbuy]=max(pick,notpick)
         # return dp[0][1]
         # SINGLE-ARRAY
-        # dp=[0]*2
-        # for i in range(len(prices)-1,-1,-1):
-        #     for canbuy in range(2):
-        #         if canbuy==1:
-        #         # can buy
-        #         # for i==0 there will be special cases 
+        dp=[0]*2
+        for i in range(len(prices)-1,-1,-1):
+            for canbuy in range(2):
+                if canbuy==1:
+                # can buy
+                # for i==0 there will be special cases 
                 
-        #             buy=-prices[i]+dp[0]                                 
-        #             notbuy=0+dp[1]
-        #             pick=buy
-        #             notpick=notbuy
-        #         else:
-        #             # canbuy==0? > sell
-        #             sell=prices[i]+dp[1]
-        #             notsell=0+dp[0]
-        #             pick=sell
-        #             notpick=notsell
-        #         dp[canbuy]=max(pick,notpick)
-        # return dp[1]
-        profit=0
-        for i in range(1,len(prices)):
-            profit += max(0, prices[i] - prices[i-1])
-        return profit
+                    buy=-prices[i]+dp[0]                                 
+                    notbuy=0+dp[1]
+                    pick=buy
+                    notpick=notbuy
+                else:
+                    # canbuy==0? > sell
+                    sell=prices[i]+dp[1]
+                    notsell=0+dp[0]
+                    pick=sell
+                    notpick=notsell
+                dp[canbuy]=max(pick,notpick)
+        return dp[1]
+        # profit=0
+        # for i in range(1,len(prices)):
+        #     profit += max(0, prices[i] - prices[i-1])
+        # return profit
