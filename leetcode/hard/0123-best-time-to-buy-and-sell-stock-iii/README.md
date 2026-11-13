@@ -52,9 +52,9 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 ## Solution
 
 **Language:** Python  
-**Runtime:** 931 ms (beats 11.53%)  
-**Memory:** 42.5 MB (beats 9.78%)  
-**Submitted:** 2026-11-13T12:15:21.356Z  
+**Runtime:** 585 ms (beats 13.83%)  
+**Memory:** 20.9 MB (beats 36.36%)  
+**Submitted:** 2026-11-13T12:16:59.529Z  
 
 ```py
 class Solution(object):
@@ -116,20 +116,34 @@ class Solution(object):
         #     dp[i][txn]=max(pick,notpick)
         #     return dp[i][txn]
         # return find(0,0,dp)
-        # TABULATE:
-        dp=[[0]*5 for i in range(n+1)]
+        # # TABULATE:
+        # dp=[[0]*5 for i in range(n+1)]
+        # for i in range(n-1,-1,-1):
+        #     for txn in range(3,-1,-1):
+        #         if txn%2==0:
+        #         # buy
+        #             pick=-prices[i]+dp[i+1][txn+1]
+        #             notpick=0+dp[i+1][txn]
+        #         else:
+        #             # sell
+        #             pick=prices[i]+dp[i+1][txn+1]
+        #             notpick=0+dp[i+1][txn]
+        #         dp[i][txn]=max(pick,notpick)
+        # return dp[0][0]
+        # OPTIMIZE MORE!
+        dp=[0]*5
         for i in range(n-1,-1,-1):
             for txn in range(3,-1,-1):
                 if txn%2==0:
                 # buy
-                    pick=-prices[i]+dp[i+1][txn+1]
-                    notpick=0+dp[i+1][txn]
+                    pick=-prices[i]+dp[txn+1]
+                    notpick=0+dp[txn]
                 else:
                     # sell
-                    pick=prices[i]+dp[i+1][txn+1]
-                    notpick=0+dp[i+1][txn]
-                dp[i][txn]=max(pick,notpick)
-        return dp[0][0]
+                    pick=prices[i]+dp[txn+1]
+                    notpick=0+dp[txn]
+                dp[txn]=max(pick,notpick)
+        return dp[0]
         # buy1 = float('-inf')
         # sell1 = 0
         # buy2 = float('-inf')
