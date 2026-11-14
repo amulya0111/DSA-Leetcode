@@ -44,8 +44,8 @@ Output: 0
 
 **Language:** Python  
 **Runtime:** 4 ms (beats 30.59%)  
-**Memory:** 12.6 MB (beats 37.14%)  
-**Submitted:** 2026-11-14T14:44:17.021Z  
+**Memory:** 12.7 MB (beats 37.14%)  
+**Submitted:** 2026-11-14T14:46:32.551Z  
 
 ```py
 class Solution(object):
@@ -70,15 +70,14 @@ class Solution(object):
         # TABULATION(ALONG WITH SINGLE)
         dp=[[0]*2 for i in range(n+1+1)]
         for i in range(n-1,-1,-1):
-            for canbuy in range(2):
-                if canbuy==1 :
-                    pick=-prices[i]+dp[i+1][0]
-                    notpick=0+dp[i+1][1]
-                elif canbuy==0:
-                    pick=prices[i]+dp[i+2][1]
-                    notpick=0+dp[i+1][0]
-        
-                dp[i][canbuy]=max(pick,notpick)
+
+                pick=-prices[i]+dp[i+1][0]
+                notpick=0+dp[i+1][1]
+                dp[i][1]=max(pick,notpick)
+                
+                pick=prices[i]+dp[i+2][1]
+                notpick=0+dp[i+1][0]        
+                dp[i][0]=max(pick,notpick)
         return dp[0][1]
 ```
 
