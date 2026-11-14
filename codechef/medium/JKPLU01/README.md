@@ -82,7 +82,7 @@ The total profit is: 1 + 3 = 4
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-14T15:09:19.449Z  
+**Submitted:** 2026-11-14T15:10:06.888Z  
 
 ```py
 def calculateMaxProfit(stockPrices: list[int], transactionFee: int) -> int:
