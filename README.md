@@ -48,3 +48,14 @@
 *Last updated: 2026-11-14* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/amulya0111/DSA-Leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/amulya0111/DSA-Leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
+<!---LeetCode Topics End-->
