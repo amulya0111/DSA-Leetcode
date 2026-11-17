@@ -48,3 +48,14 @@
 *Last updated: 2026-11-16* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Linked List
+|  |
+| ------- |
+| [0203-remove-linked-list-elements](https://github.com/amulya0111/DSA-Leetcode/tree/master/0203-remove-linked-list-elements) |
+## Recursion
+|  |
+| ------- |
+| [0203-remove-linked-list-elements](https://github.com/amulya0111/DSA-Leetcode/tree/master/0203-remove-linked-list-elements) |
+<!---LeetCode Topics End-->
