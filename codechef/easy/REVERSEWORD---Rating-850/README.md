@@ -74,14 +74,14 @@ red are Roses
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-18T18:10:15.799Z  
+**Submitted:** 2026-11-21T15:21:06.227Z  
 
 ```py
 def reverse_words(s: str) -> str:
     words = s.split()
     words.reverse()
     return " ".join(words)
-    # 
+    # .
 ```
 
 ---
