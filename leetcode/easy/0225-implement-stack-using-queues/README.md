@@ -54,46 +54,31 @@ myStack.empty(); // return False
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 12.2 MB  
-**Submitted:** 2026-11-22T16:09:13.735Z  
+**Runtime:** 1 ms (beats 27.73%)  
+**Memory:** 12.2 MB (beats 78.92%)  
+**Submitted:** 2026-11-22T16:10:39.637Z  
 
 ```py
 from collections import deque
+
 class MyStack(object):
 
     def __init__(self):
-        self.queue=deque([])
+        self.q=deque()
 
     def push(self, x):
-        """
-        :type x: int
-        :rtype: None
-        """
-
-        self.queue.appendleft(x)
-        
+        self.q.append(x)
+        for i in range(len(self.q)-1):
+            self.q.append(self.q.popleft())
 
     def pop(self):
-        """
-        :rtype: int
-        """
-        return self.queue.popleft()
-        
+        return self.q.popleft()
 
     def top(self):
-        """
-        :rtype: int
-        """
-        if not len(self.queue)==0:
-            return self.queue[0]
+        return self.q[0]
 
     def empty(self):
-        """
-        :rtype: bool
-        """
-        return len(self.queue)==0
-        
+        return len(self.q)==0  
 
 
 # Your MyStack object will be instantiated and called as such:
